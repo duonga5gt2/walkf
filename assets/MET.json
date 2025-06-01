@@ -1,0 +1,4928 @@
+[
+  {
+    "CODE": "01003",
+    "METS": "14.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, mountain, uphill, vigorous"
+  },
+  {
+    "CODE": "01004",
+    "METS": "16.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, mountain, competitive, racing"
+  },
+  {
+    "CODE": "01008",
+    "METS": "8.5",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, BMX"
+  },
+  {
+    "CODE": "01009",
+    "METS": "8.5",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, mountain, general"
+  },
+  {
+    "CODE": "01010",
+    "METS": "4.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, <10 mph, leisure, to work or for pleasure (Taylor Code 115)"
+  },
+  {
+    "CODE": "01011",
+    "METS": "6.8",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, to/from work, self selected pace"
+  },
+  {
+    "CODE": "01013",
+    "METS": "5.8",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, on dirt or farm road, moderate pace"
+  },
+  {
+    "CODE": "01015",
+    "METS": "7.5",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, general"
+  },
+  {
+    "CODE": "01018",
+    "METS": "3.5",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, leisure, 5.5 mph"
+  },
+  {
+    "CODE": "01019",
+    "METS": "5.8",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, leisure, 9.4 mph"
+  },
+  {
+    "CODE": "01020",
+    "METS": "6.8",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 10-11.9 mph, leisure, slow, light effort"
+  },
+  {
+    "CODE": "01030",
+    "METS": "8.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 12-13.9 mph, leisure, moderate effort"
+  },
+  {
+    "CODE": "01040",
+    "METS": "10.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 14-15.9 mph, racing or leisure, fast, vigorous effort"
+  },
+  {
+    "CODE": "01050",
+    "METS": "12.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 16-19 mph, racing/not drafting or > 19 mph drafting, very fast, racing general"
+  },
+  {
+    "CODE": "01060",
+    "METS": "15.8",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, > 20 mph, racing, not drafting"
+  },
+  {
+    "CODE": "01065",
+    "METS": "8.5",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 12 mph, seated, hands on brake hoods or bar drops, 80 rpm"
+  },
+  {
+    "CODE": "01066",
+    "METS": "9.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "bicycling, 12 mph, standing, hands on brake hoods, 60 rpm"
+  },
+  {
+    "CODE": "01070",
+    "METS": "5.0",
+    "MAJOR HEADING": "bicycling",
+    "SPECIFIC ACTIVITIES": "unicycling"
+  },
+  {
+    "CODE": "02001",
+    "METS": "2.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "activity promoting video game (e.g., Wii Fit), light effort (e.g., balance, yoga)"
+  },
+  {
+    "CODE": "02003",
+    "METS": "3.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "activity promoting video game (e.g., Wii Fit), moderate effort (e.g., aerobic, resistance)"
+  },
+  {
+    "CODE": "02005",
+    "METS": "7.2",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "activity promoting video/arcade game (e.g., Exergaming, Dance Dance Revolution), vigorous effort"
+  },
+  {
+    "CODE": "02008",
+    "METS": "5.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "army type obstacle course exercise, boot camp training program"
+  },
+  {
+    "CODE": "02010",
+    "METS": "7.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, general"
+  },
+  {
+    "CODE": "02011",
+    "METS": "3.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 30-50 watts, very light to light effort"
+  },
+  {
+    "CODE": "02012",
+    "METS": "6.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 90-100 watts, moderate to vigorous effort"
+  },
+  {
+    "CODE": "02013",
+    "METS": "8.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 101-160 watts, vigorous effort"
+  },
+  {
+    "CODE": "02014",
+    "METS": "11.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 161-200 watts, vigorous effort"
+  },
+  {
+    "CODE": "02015",
+    "METS": "14.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 201-270 watts, very vigorous effort"
+  },
+  {
+    "CODE": "02017",
+    "METS": "4.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, 51-89 watts, light-to-moderate effort"
+  },
+  {
+    "CODE": "02019",
+    "METS": "8.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "bicycling, stationary, RPM/Spin bike class"
+  },
+  {
+    "CODE": "02020",
+    "METS": "8.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "calisthenics (e.g., push ups, sit ups, pull-ups, jumping jacks), vigorous effort"
+  },
+  {
+    "CODE": "02022",
+    "METS": "3.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "calisthenics (e.g., push ups, sit ups, pull-ups, lunges), moderate effort"
+  },
+  {
+    "CODE": "02024",
+    "METS": "2.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "calisthenics (e.g., situps, abdominal crunches), light effort"
+  },
+  {
+    "CODE": "02030",
+    "METS": "3.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "calisthenics, light or moderate effort, general (e.g., back exercises), going up & down from floor (Taylor Code 150)"
+  },
+  {
+    "CODE": "02035",
+    "METS": "4.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "circuit training, moderate effort"
+  },
+  {
+    "CODE": "02040",
+    "METS": "8.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "circuit training, including kettlebells, some aerobic movement with minimal rest, general, vigorous intensity"
+  },
+  {
+    "CODE": "02045",
+    "METS": "3.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "CurvesTM\u00a0exercise routines in women"
+  },
+  {
+    "CODE": "02048",
+    "METS": "5.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "Elliptical trainer, moderate effort"
+  },
+  {
+    "CODE": "02050",
+    "METS": "6.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "resistance training (weight lifting, free weight, nautilus or universal), power lifting or body building, vigorous effort (Taylor Code 210)"
+  },
+  {
+    "CODE": "02052",
+    "METS": "5.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "resistance (weight) training, squats , slow or explosive effort"
+  },
+  {
+    "CODE": "02054",
+    "METS": "3.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "resistance (weight) training, multiple exercises, 8-15 repetitions at varied resistance"
+  },
+  {
+    "CODE": "02060",
+    "METS": "5.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "health club exercise, general (Taylor Code 160)"
+  },
+  {
+    "CODE": "02061",
+    "METS": "5.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "health club exercise classes, general, gym/weight training combined in one visit"
+  },
+  {
+    "CODE": "02062",
+    "METS": "7.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "health club exercise, conditioning classes"
+  },
+  {
+    "CODE": "02064",
+    "METS": "3.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "home exercise, general"
+  },
+  {
+    "CODE": "02065",
+    "METS": "9.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "stair-treadmill ergometer, general"
+  },
+  {
+    "CODE": "02068",
+    "METS": "12.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rope skipping, general"
+  },
+  {
+    "CODE": "02070",
+    "METS": "6.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rowing, stationary ergometer, general, vigorous effort"
+  },
+  {
+    "CODE": "02071",
+    "METS": "4.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rowing, stationary, general, moderate effort"
+  },
+  {
+    "CODE": "02072",
+    "METS": "7.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rowing, stationary, 100 watts, moderate effort"
+  },
+  {
+    "CODE": "02073",
+    "METS": "8.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rowing, stationary, 150 watts, vigorous effort"
+  },
+  {
+    "CODE": "02074",
+    "METS": "12.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "rowing, stationary, 200 watts, very vigorous effort"
+  },
+  {
+    "CODE": "02080",
+    "METS": "6.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "ski machine, general"
+  },
+  {
+    "CODE": "02085",
+    "METS": "11.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "slide board exercise, general"
+  },
+  {
+    "CODE": "02090",
+    "METS": "6.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "slimnastics, jazzercise"
+  },
+  {
+    "CODE": "02101",
+    "METS": "2.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "stretching, mild"
+  },
+  {
+    "CODE": "02105",
+    "METS": "3.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "pilates, general"
+  },
+  {
+    "CODE": "02110",
+    "METS": "6.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "teaching exercise class (e.g., aerobic, water)"
+  },
+  {
+    "CODE": "02112",
+    "METS": "2.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "therapeutic exercise ball, Fitball exercise"
+  },
+  {
+    "CODE": "02115",
+    "METS": "2.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "upper body exercise, arm ergometer"
+  },
+  {
+    "CODE": "02117",
+    "METS": "4.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "upper body exercise, stationary bicycle - Airdyne (arms only) 40 rpm, moderate"
+  },
+  {
+    "CODE": "02120",
+    "METS": "5.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "water aerobics, water calisthenics, water exercise"
+  },
+  {
+    "CODE": "02135",
+    "METS": "1.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "whirlpool, sitting"
+  },
+  {
+    "CODE": "02140",
+    "METS": "2.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "video exercise workouts, TV conditioning programs (e.g., yoga, stretching), light effort"
+  },
+  {
+    "CODE": "02143",
+    "METS": "4.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "video exercise workouts, TV conditioning programs (e.g., cardio-resistance), moderate effort"
+  },
+  {
+    "CODE": "02146",
+    "METS": "6.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "video exercise workouts, TV conditioning programs (e.g., cardio-resistance), vigorous effort"
+  },
+  {
+    "CODE": "02150",
+    "METS": "2.5",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "yoga, Hatha"
+  },
+  {
+    "CODE": "02160",
+    "METS": "4.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "yoga, Power"
+  },
+  {
+    "CODE": "02170",
+    "METS": "2.0",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "yoga, Nadisodhana"
+  },
+  {
+    "CODE": "02180",
+    "METS": "3.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "yoga, Surya Namaskar"
+  },
+  {
+    "CODE": "02200",
+    "METS": "5.3",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "native New Zealander physical activities (e.g., Haka Powhiri, Moteatea, Waita Tira, Whakawatea, etc.), general, moderate effort"
+  },
+  {
+    "CODE": "02205",
+    "METS": "6.8",
+    "MAJOR HEADING": "conditioning exercise",
+    "SPECIFIC ACTIVITIES": "native New Zealander physical activities (e.g., Haka, Taiahab), general, vigorous effort"
+  },
+  {
+    "CODE": "03010",
+    "METS": "5.0",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ballet, modern, or jazz, general, rehearsal or class"
+  },
+  {
+    "CODE": "03012",
+    "METS": "6.8",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ballet, modern, or jazz, performance, vigorous effort"
+  },
+  {
+    "CODE": "03014",
+    "METS": "4.8",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "tap"
+  },
+  {
+    "CODE": "03015",
+    "METS": "7.3",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, general"
+  },
+  {
+    "CODE": "03016",
+    "METS": "7.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, step, with 6 - 8 inch step"
+  },
+  {
+    "CODE": "03017",
+    "METS": "9.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, step, with 10 - 12 inch step"
+  },
+  {
+    "CODE": "03018",
+    "METS": "5.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, step, with 4-inch step"
+  },
+  {
+    "CODE": "03019",
+    "METS": "8.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "bench step class, general"
+  },
+  {
+    "CODE": "03020",
+    "METS": "5.0",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, low impact"
+  },
+  {
+    "CODE": "03021",
+    "METS": "7.3",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic, high impact"
+  },
+  {
+    "CODE": "03022",
+    "METS": "10.0",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "aerobic dance wearing 10-15 lb weights"
+  },
+  {
+    "CODE": "03025",
+    "METS": "4.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ethnic or cultural dancing (e.g., Greek, Middle Eastern, hula, salsa, merengue, bamba y plena, flamenco, belly, and swing)"
+  },
+  {
+    "CODE": "03030",
+    "METS": "5.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ballroom, fast (Taylor Code 125)"
+  },
+  {
+    "CODE": "03031",
+    "METS": "7.8",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "general dancing (e.g., disco, folk, Irish step dancing, line dancing, polka, contra, country)"
+  },
+  {
+    "CODE": "03038",
+    "METS": "11.3",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ballroom dancing, competitive, general"
+  },
+  {
+    "CODE": "03040",
+    "METS": "3.0",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "ballroom, slow (e.g., waltz, foxtrot, slow dancing, samba, tango, 19th\u00a0century dance, mambo, cha cha)"
+  },
+  {
+    "CODE": "03050",
+    "METS": "5.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "Anishinaabe Jingle Dancing"
+  },
+  {
+    "CODE": "03060",
+    "METS": "3.5",
+    "MAJOR HEADING": "dancing",
+    "SPECIFIC ACTIVITIES": "Caribbean dance (Abakua, Beguine, Bellair, Bongo, Brukin's, Caribbean Quadrills, Dinki Mini, Gere, Gumbay, Ibo, Jonkonnu, Kumina, Oreisha, Jambu)"
+  },
+  {
+    "CODE": "04001",
+    "METS": "3.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, general"
+  },
+  {
+    "CODE": "04005",
+    "METS": "4.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, crab fishing"
+  },
+  {
+    "CODE": "04007",
+    "METS": "4.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, catching fish with hands"
+  },
+  {
+    "CODE": "04010",
+    "METS": "4.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing related, digging worms, with shovel"
+  },
+  {
+    "CODE": "04020",
+    "METS": "4.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing from river bank and walking"
+  },
+  {
+    "CODE": "04030",
+    "METS": "2.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing from boat or canoe, sitting"
+  },
+  {
+    "CODE": "04040",
+    "METS": "3.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing from river bank, standing (Taylor Code 660)"
+  },
+  {
+    "CODE": "04050",
+    "METS": "6.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing in stream, in waders (Taylor Code 670)"
+  },
+  {
+    "CODE": "04060",
+    "METS": "2.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, ice, sitting"
+  },
+  {
+    "CODE": "04061",
+    "METS": "1.8",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, jog or line, standing, general"
+  },
+  {
+    "CODE": "04062",
+    "METS": "3.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, dip net, setting net and retrieving fish, general"
+  },
+  {
+    "CODE": "04063",
+    "METS": "3.8",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, set net, setting net and retrieving fish, general"
+  },
+  {
+    "CODE": "04064",
+    "METS": "3.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing, fishing wheel, setting net and retrieving fish, general"
+  },
+  {
+    "CODE": "04065",
+    "METS": "2.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "fishing with a spear, standing"
+  },
+  {
+    "CODE": "04070",
+    "METS": "2.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, bow and arrow, or crossbow"
+  },
+  {
+    "CODE": "04080",
+    "METS": "6.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, deer, elk, large game (Taylor Code 170)"
+  },
+  {
+    "CODE": "04081",
+    "METS": "11.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting large game, dragging carcass"
+  },
+  {
+    "CODE": "04083",
+    "METS": "4.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting large marine animals"
+  },
+  {
+    "CODE": "04085",
+    "METS": "2.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting large game, from a hunting stand, limited walking"
+  },
+  {
+    "CODE": "04086",
+    "METS": "2.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting large game from a car, plane, or boat"
+  },
+  {
+    "CODE": "04090",
+    "METS": "2.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, duck, wading"
+  },
+  {
+    "CODE": "04095",
+    "METS": "3.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, flying fox, squirrel"
+  },
+  {
+    "CODE": "04100",
+    "METS": "5.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, general"
+  },
+  {
+    "CODE": "04110",
+    "METS": "6.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, pheasants or grouse (Taylor Code 680)"
+  },
+  {
+    "CODE": "04115",
+    "METS": "3.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, birds"
+  },
+  {
+    "CODE": "04120",
+    "METS": "5.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, rabbit, squirrel, prairie chick, raccoon, small game (Taylor Code 690)"
+  },
+  {
+    "CODE": "04123",
+    "METS": "3.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, pigs, wild"
+  },
+  {
+    "CODE": "04124",
+    "METS": "2.0",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "trapping game, general"
+  },
+  {
+    "CODE": "04125",
+    "METS": "9.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "hunting, hiking with hunting gear"
+  },
+  {
+    "CODE": "04130",
+    "METS": "2.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "pistol shooting or trap shooting, standing"
+  },
+  {
+    "CODE": "04140",
+    "METS": "2.3",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "rifle exercises, shooting, lying down"
+  },
+  {
+    "CODE": "04145",
+    "METS": "2.5",
+    "MAJOR HEADING": "fishing and hunting",
+    "SPECIFIC ACTIVITIES": "rifle exercises, shooting, kneeling or standing"
+  },
+  {
+    "CODE": "05010",
+    "METS": "3.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, sweeping carpet or floors, general"
+  },
+  {
+    "CODE": "05011",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, sweeping, slow, light effort"
+  },
+  {
+    "CODE": "05012",
+    "METS": "3.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, sweeping, slow, moderate \u00a0effort"
+  },
+  {
+    "CODE": "05020",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, heavy or major (e.g. wash car, wash windows, clean garage), moderate effort"
+  },
+  {
+    "CODE": "05021",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, mopping, standing, moderate effort"
+  },
+  {
+    "CODE": "05022",
+    "METS": "3.2",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning windows, washing windows, general"
+  },
+  {
+    "CODE": "05023",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "mopping, standing, light effort"
+  },
+  {
+    "CODE": "05024",
+    "METS": "4.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "polishing floors, standing, walking slowly, using electric polishing machine"
+  },
+  {
+    "CODE": "05025",
+    "METS": "2.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "multiple household tasks all at once, light effort"
+  },
+  {
+    "CODE": "05026",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "multiple household tasks all at once, moderate effort"
+  },
+  {
+    "CODE": "05027",
+    "METS": "4.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "multiple household tasks all at once, vigorous effort"
+  },
+  {
+    "CODE": "05030",
+    "METS": "3.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, house or cabin, general, moderate effort"
+  },
+  {
+    "CODE": "05032",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "dusting or polishing furniture, general"
+  },
+  {
+    "CODE": "05035",
+    "METS": "3.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "kitchen activity, general, (e.g., cooking, washing dishes, cleaning up), moderate effort"
+  },
+  {
+    "CODE": "05040",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cleaning, general (straightening up, changing linen, carrying out trash, light effort"
+  },
+  {
+    "CODE": "05041",
+    "METS": "1.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "wash dishes, standing or in general (not broken into stand/walk components)"
+  },
+  {
+    "CODE": "05042",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "wash dishes, clearing dishes from table, walking, light effort"
+  },
+  {
+    "CODE": "05043",
+    "METS": "3.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "vacuuming, general, moderate effort"
+  },
+  {
+    "CODE": "05044",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "butchering animals, small"
+  },
+  {
+    "CODE": "05045",
+    "METS": "6.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "butchering animal, large, vigorous effort"
+  },
+  {
+    "CODE": "05046",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cutting and smoking fish, drying fish or meat"
+  },
+  {
+    "CODE": "05048",
+    "METS": "4.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "tanning hides, general"
+  },
+  {
+    "CODE": "05049",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cooking or food preparation, moderate effort"
+  },
+  {
+    "CODE": "05050",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cooking or food preparation - standing or sitting or in general (not broken into stand/walk components), manual appliances, light effort"
+  },
+  {
+    "CODE": "05051",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "serving food, setting table, implied walking or standing"
+  },
+  {
+    "CODE": "05052",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cooking or food preparation, walking"
+  },
+  {
+    "CODE": "05053",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "feeding household animals"
+  },
+  {
+    "CODE": "05055",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "putting away groceries (e.g. carrying groceries, shopping without a grocery cart), carrying packages"
+  },
+  {
+    "CODE": "05056",
+    "METS": "7.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "carrying groceries upstairs"
+  },
+  {
+    "CODE": "05057",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "cooking Indian bread on an outside stove"
+  },
+  {
+    "CODE": "05060",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "food shopping with or without a grocery cart, standing or walking"
+  },
+  {
+    "CODE": "05065",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "non-food shopping, with or without a cart, standing or walking"
+  },
+  {
+    "CODE": "05070",
+    "METS": "1.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "ironing"
+  },
+  {
+    "CODE": "05080",
+    "METS": "1.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "knitting, sewing, light effort, wrapping presents, sitting"
+  },
+  {
+    "CODE": "05082",
+    "METS": "2.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "sewing with a machine"
+  },
+  {
+    "CODE": "05090",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "laundry, fold or hang clothes, put clothes in washer or dryer, packing suitcase, washing clothes by hand, implied standing, light effort"
+  },
+  {
+    "CODE": "05092",
+    "METS": "4.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "laundry, hanging wash, washing clothes by hand, moderate effort"
+  },
+  {
+    "CODE": "05095",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "laundry, putting away clothes, gathering clothes to pack, putting away laundry, implied walking"
+  },
+  {
+    "CODE": "05100",
+    "METS": "3.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "making bed, changing linens"
+  },
+  {
+    "CODE": "05110",
+    "METS": "5.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "maple syruping/sugar bushing (including carrying buckets, carrying wood)"
+  },
+  {
+    "CODE": "05120",
+    "METS": "5.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "moving furniture, household items, carrying boxes"
+  },
+  {
+    "CODE": "05121",
+    "METS": "5.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "moving, lifting light loads"
+  },
+  {
+    "CODE": "05125",
+    "METS": "4.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "organizing room"
+  },
+  {
+    "CODE": "05130",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort"
+  },
+  {
+    "CODE": "05131",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort"
+  },
+  {
+    "CODE": "05132",
+    "METS": "6.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort"
+  },
+  {
+    "CODE": "05140",
+    "METS": "4.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "sweeping garage, sidewalk or outside of house"
+  },
+  {
+    "CODE": "05146",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "standing, packing/unpacking boxes, occasional lifting of lightweight household items, loading or unloading items in car, moderate effort"
+  },
+  {
+    "CODE": "05147",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "implied walking, putting away household items, moderate effort"
+  },
+  {
+    "CODE": "05148",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "watering plants"
+  },
+  {
+    "CODE": "05149",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "building a fire inside"
+  },
+  {
+    "CODE": "05150",
+    "METS": "9.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "moving household items upstairs, carrying boxes or furniture"
+  },
+  {
+    "CODE": "05160",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "standing, light effort tasks (pump gas, change light bulb, etc.)"
+  },
+  {
+    "CODE": "05165",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walking,\u00a0 moderate e ffort tasks, non-cleaning (readying to leave, shut/lock doors, close windows, etc.)"
+  },
+  {
+    "CODE": "05170",
+    "METS": "2.2",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "sitting, playing with child(ren), light effort, only active periods"
+  },
+  {
+    "CODE": "05171",
+    "METS": "2.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "standing, playing with child(ren) light effort, only active periods"
+  },
+  {
+    "CODE": "05175",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walking/running, playing with child(ren), moderate effort, only active periods"
+  },
+  {
+    "CODE": "05180",
+    "METS": "5.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walking/running, playing with child(ren), vigorous effort, only active periods"
+  },
+  {
+    "CODE": "05181",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walking and carrying small child, child weighing 15 lbs or more"
+  },
+  {
+    "CODE": "05182",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walking and\u00a0 carrying small child, child weighing less than 15 lbs"
+  },
+  {
+    "CODE": "05183",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "standing, holding child"
+  },
+  {
+    "CODE": "05184",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "child care, infant, general"
+  },
+  {
+    "CODE": "05185",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "child care, sitting/kneeling (e.g., dressing, bathing, grooming, feeding, occasional lifting of child), light effort, general"
+  },
+  {
+    "CODE": "05186",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "child care, standing (e.g., dressing, bathing, grooming, feeding, occasional lifting of child), moderate effort"
+  },
+  {
+    "CODE": "05188",
+    "METS": "1.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "reclining with baby"
+  },
+  {
+    "CODE": "05189",
+    "METS": "2.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "breastfeeding, sitting or reclining"
+  },
+  {
+    "CODE": "05190",
+    "METS": "2.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "sit, playing with animals, light effort, only active periods"
+  },
+  {
+    "CODE": "05191",
+    "METS": "2.8",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "stand, playing with animals, light effort, only active periods"
+  },
+  {
+    "CODE": "05192",
+    "METS": "3.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walk/run, playing with animals, general, light effort, only active periods"
+  },
+  {
+    "CODE": "05193",
+    "METS": "4.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walk/run, playing with animals, moderate effort, only active periods"
+  },
+  {
+    "CODE": "05194",
+    "METS": "5.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "walk/run, playing with animals, vigorous effort, only active periods"
+  },
+  {
+    "CODE": "05195",
+    "METS": "3.5",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "standing, bathing dog"
+  },
+  {
+    "CODE": "05197",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "animal care, household animals, general"
+  },
+  {
+    "CODE": "05200",
+    "METS": "4.0",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "elder care, disabled adult, bathing, dressing, moving into and out of bed, only active periods"
+  },
+  {
+    "CODE": "05205",
+    "METS": "2.3",
+    "MAJOR HEADING": "home activities",
+    "SPECIFIC ACTIVITIES": "elder care, disabled adult, feeding, combing hair, light effort, only active periods"
+  },
+  {
+    "CODE": "06010",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "airplane repair"
+  },
+  {
+    "CODE": "06020",
+    "METS": "4.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "automobile body work"
+  },
+  {
+    "CODE": "06030",
+    "METS": "3.3",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "automobile repair, light or moderate effort"
+  },
+  {
+    "CODE": "06040",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, general, workshop (Taylor Code 620)"
+  },
+  {
+    "CODE": "06050",
+    "METS": "6.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, outside house, installing rain gutters (Taylor Code 640),carpentry, outside house, building a fence"
+  },
+  {
+    "CODE": "06052",
+    "METS": "3.8",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, outside house, building a fence"
+  },
+  {
+    "CODE": "06060",
+    "METS": "3.3",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, finishing or refinishing cabinets or furniture"
+  },
+  {
+    "CODE": "06070",
+    "METS": "6.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, sawing hardwood"
+  },
+  {
+    "CODE": "06072",
+    "METS": "4.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, home remodeling tasks, moderate effort"
+  },
+  {
+    "CODE": "06074",
+    "METS": "2.3",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "carpentry, home remodeling tasks, light effort"
+  },
+  {
+    "CODE": "06080",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "caulking, chinking log cabin"
+  },
+  {
+    "CODE": "06090",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "caulking, except log cabin"
+  },
+  {
+    "CODE": "06100",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "cleaning gutters"
+  },
+  {
+    "CODE": "06110",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "excavating garage"
+  },
+  {
+    "CODE": "06120",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "hanging storm windows"
+  },
+  {
+    "CODE": "06122",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "hanging sheet rock inside house"
+  },
+  {
+    "CODE": "06124",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "hammering nails"
+  },
+  {
+    "CODE": "06126",
+    "METS": "2.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "home repair, general, light effort"
+  },
+  {
+    "CODE": "06127",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "home repair, general, moderate effort"
+  },
+  {
+    "CODE": "06128",
+    "METS": "6.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "home repair, general, vigorous effort"
+  },
+  {
+    "CODE": "06130",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "laying or removing carpet"
+  },
+  {
+    "CODE": "06140",
+    "METS": "3.8",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "laying tile or linoleum,repairing appliances"
+  },
+  {
+    "CODE": "06144",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "repairing appliances"
+  },
+  {
+    "CODE": "06150",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "painting, outside home (Taylor Code 650)"
+  },
+  {
+    "CODE": "06160",
+    "METS": "3.3",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "painting inside house,wallpapering, scraping paint"
+  },
+  {
+    "CODE": "06165",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "painting, (Taylor Code 630)"
+  },
+  {
+    "CODE": "06167",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "plumbing, general"
+  },
+  {
+    "CODE": "06170",
+    "METS": "3.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "put on and removal of tarp - sailboat"
+  },
+  {
+    "CODE": "06180",
+    "METS": "6.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "roofing"
+  },
+  {
+    "CODE": "06190",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "sanding floors with a power sander"
+  },
+  {
+    "CODE": "06200",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "scraping and painting sailboat or powerboat"
+  },
+  {
+    "CODE": "06205",
+    "METS": "2.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "sharpening tools"
+  },
+  {
+    "CODE": "06210",
+    "METS": "5.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "spreading dirt with a shovel"
+  },
+  {
+    "CODE": "06220",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "washing and waxing hull of sailboat or airplane"
+  },
+  {
+    "CODE": "06225",
+    "METS": "2.0",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "washing and waxing car"
+  },
+  {
+    "CODE": "06230",
+    "METS": "4.5",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "washing fence, painting fence, moderate effort"
+  },
+  {
+    "CODE": "06240",
+    "METS": "3.3",
+    "MAJOR HEADING": "home repair",
+    "SPECIFIC ACTIVITIES": "wiring, tapping-splicing"
+  },
+  {
+    "CODE": "07010",
+    "METS": "1.0",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "lying quietly and watching television"
+  },
+  {
+    "CODE": "07011",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "lying quietly, doing nothing, lying in bed awake, listening to music (not talking or reading)"
+  },
+  {
+    "CODE": "07020",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting quietly and watching television"
+  },
+  {
+    "CODE": "07021",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting quietly, general"
+  },
+  {
+    "CODE": "07022",
+    "METS": "1.5",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting quietly, fidgeting, general, fidgeting hands"
+  },
+  {
+    "CODE": "07023",
+    "METS": "1.8",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting, fidgeting feet"
+  },
+  {
+    "CODE": "07024",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting, smoking"
+  },
+  {
+    "CODE": "07025",
+    "METS": "1.5",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting, listening to music (not talking or reading) or watching a movie in a theater"
+  },
+  {
+    "CODE": "07026",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sitting at a desk, resting head in hands"
+  },
+  {
+    "CODE": "07030",
+    "METS": "1.0",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "sleeping"
+  },
+  {
+    "CODE": "07040",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "standing quietly, standing in a line"
+  },
+  {
+    "CODE": "07041",
+    "METS": "1.8",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "standing, fidgeting"
+  },
+  {
+    "CODE": "07050",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "reclining, writing"
+  },
+  {
+    "CODE": "07060",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "reclining, talking or talking on phone"
+  },
+  {
+    "CODE": "07070",
+    "METS": "1.3",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "reclining, reading"
+  },
+  {
+    "CODE": "07075",
+    "METS": "1.0",
+    "MAJOR HEADING": "inactivity quiet/light",
+    "SPECIFIC ACTIVITIES": "meditating"
+  },
+  {
+    "CODE": "08009",
+    "METS": "3.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "carrying, loading or stacking wood, loading/unloading or carrying lumber, light-to-moderate effort"
+  },
+  {
+    "CODE": "08010",
+    "METS": "5.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "carrying, loading or stacking wood, loading/unloading or carrying lumber"
+  },
+  {
+    "CODE": "08019",
+    "METS": "4.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "chopping wood, splitting logs, moderate effort"
+  },
+  {
+    "CODE": "08020",
+    "METS": "6.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "chopping wood, splitting logs, vigorous effort"
+  },
+  {
+    "CODE": "08025",
+    "METS": "3.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "clearing light brush, thinning garden, moderate effort"
+  },
+  {
+    "CODE": "08030",
+    "METS": "6.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "clearing brush/land, undergrowth, or ground, hauling branches, wheelbarrow chores, vigorous effort"
+  },
+  {
+    "CODE": "08040",
+    "METS": "5.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "digging sandbox, shoveling sand"
+  },
+  {
+    "CODE": "08045",
+    "METS": "3.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "digging, spading, filling garden, composting, light-to-moderate effort"
+  },
+  {
+    "CODE": "08050",
+    "METS": "5.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "digging, spading, filling garden, compositing, (Taylor Code 590)"
+  },
+  {
+    "CODE": "08052",
+    "METS": "7.8",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "digging, spading, filling garden, composting, vigorous effort"
+  },
+  {
+    "CODE": "08055",
+    "METS": "2.8",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "driving tractor"
+  },
+  {
+    "CODE": "08057",
+    "METS": "8.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "felling trees, large size"
+  },
+  {
+    "CODE": "08058",
+    "METS": "5.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "felling trees, small-medium size"
+  },
+  {
+    "CODE": "08060",
+    "METS": "5.8",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "gardening with heavy power tools, tilling a garden, chain saw"
+  },
+  {
+    "CODE": "08065",
+    "METS": "2.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "gardening, using containers, older adults > 60 years"
+  },
+  {
+    "CODE": "08070",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "irrigation channels, opening and closing ports"
+  },
+  {
+    "CODE": "08080",
+    "METS": "6.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "laying crushed rock"
+  },
+  {
+    "CODE": "08090",
+    "METS": "5.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "laying sod"
+  },
+  {
+    "CODE": "08095",
+    "METS": "5.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "mowing lawn, general"
+  },
+  {
+    "CODE": "08100",
+    "METS": "2.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "mowing lawn, riding mower (Taylor Code 550)"
+  },
+  {
+    "CODE": "08110",
+    "METS": "6.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "mowing lawn, walk, hand mower (Taylor Code 570)"
+  },
+  {
+    "CODE": "08120",
+    "METS": "5.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "mowing lawn, walk, power mower, moderate or vigorous effort"
+  },
+  {
+    "CODE": "08125",
+    "METS": "4.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "mowing lawn, power mower, light or moderate effort (Taylor Code 590)"
+  },
+  {
+    "CODE": "08130",
+    "METS": "2.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "operating snow blower, walking"
+  },
+  {
+    "CODE": "08135",
+    "METS": "2.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "planting, potting, transplanting seedlings or plants, light effort"
+  },
+  {
+    "CODE": "08140",
+    "METS": "4.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "planting seedlings, shrub, stooping, moderate effort"
+  },
+  {
+    "CODE": "08145",
+    "METS": "4.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "planting crops or garden, stooping, moderate effort"
+  },
+  {
+    "CODE": "08150",
+    "METS": "4.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "planting trees"
+  },
+  {
+    "CODE": "08160",
+    "METS": "3.8",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "raking lawn or leaves, moderate effort"
+  },
+  {
+    "CODE": "08165",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "raking lawn (Taylor Code 600)"
+  },
+  {
+    "CODE": "08170",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "raking roof with snow rake"
+  },
+  {
+    "CODE": "08180",
+    "METS": "3.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "riding snow blower"
+  },
+  {
+    "CODE": "08190",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "sacking grass, leaves"
+  },
+  {
+    "CODE": "08192",
+    "METS": "5.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "shoveling dirt or mud"
+  },
+  {
+    "CODE": "08195",
+    "METS": "5.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "shoveling snow, by hand, moderate effort"
+  },
+  {
+    "CODE": "08200",
+    "METS": "6.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "shovelling snow, by hand (Taylor Code 610)"
+  },
+  {
+    "CODE": "08202",
+    "METS": "7.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "shoveling snow, by hand, vigorous effort"
+  },
+  {
+    "CODE": "08210",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "trimming shrubs or trees, manual cutter"
+  },
+  {
+    "CODE": "08215",
+    "METS": "3.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "trimming shrubs or trees, power cutter, using leaf blower, edge, moderate effort"
+  },
+  {
+    "CODE": "08220",
+    "METS": "3.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "walking, applying fertilizer or seeding a lawn, push applicator"
+  },
+  {
+    "CODE": "08230",
+    "METS": "1.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "watering lawn or garden, standing or walking"
+  },
+  {
+    "CODE": "08239",
+    "METS": "3.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "weeding, cultivating garden, light-to-moderate effort"
+  },
+  {
+    "CODE": "08240",
+    "METS": "4.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "weeding, cultivating garden (Taylor Code 580)"
+  },
+  {
+    "CODE": "08241",
+    "METS": "5.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "weeding, cultivating garden, using a hoe, moderate-to-vigorous effort"
+  },
+  {
+    "CODE": "08245",
+    "METS": "3.8",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "gardening, general, moderate effort"
+  },
+  {
+    "CODE": "08246",
+    "METS": "3.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "picking fruit off trees, picking fruits/vegetables, moderate effort"
+  },
+  {
+    "CODE": "08248",
+    "METS": "4.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "picking fruit off trees, gleaning fruits, picking fruits/vegetables, climbing ladder to pick fruit, vigorous effort"
+  },
+  {
+    "CODE": "08250",
+    "METS": "3.3",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "implied walking/standing - picking up yard, light, picking flowers or vegetables"
+  },
+  {
+    "CODE": "08251",
+    "METS": "3.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "walking, gathering gardening tools"
+  },
+  {
+    "CODE": "08255",
+    "METS": "5.5",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "wheelbarrow, pushing garden cart or wheelbarrow"
+  },
+  {
+    "CODE": "08260",
+    "METS": "3.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "yard work, general, light effort"
+  },
+  {
+    "CODE": "08261",
+    "METS": "4.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "yard work, general, moderate effort"
+  },
+  {
+    "CODE": "08262",
+    "METS": "6.0",
+    "MAJOR HEADING": "lawn and garden",
+    "SPECIFIC ACTIVITIES": "yard work, general, vigorous effort"
+  },
+  {
+    "CODE": "09000",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "board game playing, sitting"
+  },
+  {
+    "CODE": "09005",
+    "METS": "2.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "casino gambling, standing"
+  },
+  {
+    "CODE": "09010",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "card playing, \u00a0sitting"
+  },
+  {
+    "CODE": "09013",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "chess game, sitting"
+  },
+  {
+    "CODE": "09015",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "copying documents, standing"
+  },
+  {
+    "CODE": "09020",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "drawing, writing, painting, standing"
+  },
+  {
+    "CODE": "09025",
+    "METS": "1.0",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "laughing, sitting"
+  },
+  {
+    "CODE": "09030",
+    "METS": "1.3",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, reading, book, newspaper, etc."
+  },
+  {
+    "CODE": "09040",
+    "METS": "1.3",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, writing, desk work, typing"
+  },
+  {
+    "CODE": "09045",
+    "METS": "1.0",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, playing traditional video game, computer game"
+  },
+  {
+    "CODE": "09050",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, talking in person, on the phone, computer, or text messaging, light effort"
+  },
+  {
+    "CODE": "09055",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, talking in person, on the phone, computer, or text messaging, light effort"
+  },
+  {
+    "CODE": "09060",
+    "METS": "1.3",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, studying, general, including reading and/or writing, light effort"
+  },
+  {
+    "CODE": "09065",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, in class, general, including note-taking or class discussion"
+  },
+  {
+    "CODE": "09070",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, reading"
+  },
+  {
+    "CODE": "09071",
+    "METS": "2.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, miscellaneous"
+  },
+  {
+    "CODE": "09075",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, arts and crafts,\u00a0 carving wood, weaving, spinning wool, light effort"
+  },
+  {
+    "CODE": "09080",
+    "METS": "3.0",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting, arts and crafts,\u00a0 carving wood, weaving, spinning wool, moderate effort"
+  },
+  {
+    "CODE": "09085",
+    "METS": "2.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, arts and crafts, sand painting, carving, weaving, light effort"
+  },
+  {
+    "CODE": "09090",
+    "METS": "3.3",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, arts and crafts, sand painting, carving, weaving, moderate effort"
+  },
+  {
+    "CODE": "09095",
+    "METS": "3.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "standing, arts and crafts, sand painting, carving, weaving, vigorous effort"
+  },
+  {
+    "CODE": "09100",
+    "METS": "1.8",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "retreat/family reunion activities involving sitting, relaxing, talking, eating"
+  },
+  {
+    "CODE": "09101",
+    "METS": "3.0",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "retreat/family reunion activities involving playing games with children"
+  },
+  {
+    "CODE": "09105",
+    "METS": "2.0",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "touring/traveling/vacation involving riding in a vehicle"
+  },
+  {
+    "CODE": "09106",
+    "METS": "3.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "touring/traveling/vacation involving walking"
+  },
+  {
+    "CODE": "09110",
+    "METS": "2.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "camping involving standing, walking, sitting, light-to-moderate effort"
+  },
+  {
+    "CODE": "09115",
+    "METS": "1.5",
+    "MAJOR HEADING": "miscellaneous",
+    "SPECIFIC ACTIVITIES": "sitting at a sporting event, spectator"
+  },
+  {
+    "CODE": "10010",
+    "METS": "1.8",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "accordion, sitting"
+  },
+  {
+    "CODE": "10020",
+    "METS": "2.3",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "cello, sitting"
+  },
+  {
+    "CODE": "10030",
+    "METS": "2.3",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "conducting orchestra, standing"
+  },
+  {
+    "CODE": "10035",
+    "METS": "2.5",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "double bass, standing"
+  },
+  {
+    "CODE": "10040",
+    "METS": "3.8",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "drums, sitting"
+  },
+  {
+    "CODE": "10045",
+    "METS": "3.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "drumming (e.g., bongo, conga, benbe), moderate, sitting"
+  },
+  {
+    "CODE": "10050",
+    "METS": "2.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "flute, sitting"
+  },
+  {
+    "CODE": "10060",
+    "METS": "1.8",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "horn, standing"
+  },
+  {
+    "CODE": "10070",
+    "METS": "2.3",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "piano, sitting"
+  },
+  {
+    "CODE": "10074",
+    "METS": "2.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "playing musical instruments, general"
+  },
+  {
+    "CODE": "10077",
+    "METS": "2.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "organ, sitting"
+  },
+  {
+    "CODE": "10080",
+    "METS": "3.5",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "trombone, standing"
+  },
+  {
+    "CODE": "10090",
+    "METS": "1.8",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "trumpet, standing"
+  },
+  {
+    "CODE": "10100",
+    "METS": "2.5",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "violin, sitting"
+  },
+  {
+    "CODE": "10110",
+    "METS": "1.8",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "woodwind, sitting"
+  },
+  {
+    "CODE": "10120",
+    "METS": "2.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "guitar, classical, folk, sitting"
+  },
+  {
+    "CODE": "10125",
+    "METS": "3.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "guitar, rock and roll band, standing"
+  },
+  {
+    "CODE": "10130",
+    "METS": "4.0",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "marching band, baton twirling, walking, moderate pace, general"
+  },
+  {
+    "CODE": "10131",
+    "METS": "5.5",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "marching band, playing an instrument, walking, brisk pace, general"
+  },
+  {
+    "CODE": "10135",
+    "METS": "3.5",
+    "MAJOR HEADING": "music playing",
+    "SPECIFIC ACTIVITIES": "marching band, drum major, walking"
+  },
+  {
+    "CODE": "11003",
+    "METS": "2.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "active workstation, treadmill desk, walking"
+  },
+  {
+    "CODE": "11006",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "airline flight attendant"
+  },
+  {
+    "CODE": "11010",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "bakery, general, moderate effort"
+  },
+  {
+    "CODE": "11015",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "bakery, light effort"
+  },
+  {
+    "CODE": "11020",
+    "METS": "2.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "bookbinding"
+  },
+  {
+    "CODE": "11030",
+    "METS": "6.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "building road, driving heavy machinery"
+  },
+  {
+    "CODE": "11035",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "building road, directing traffic, standing"
+  },
+  {
+    "CODE": "11038",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "carpentry, general, light effort"
+  },
+  {
+    "CODE": "11040",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "carpentry, general, moderate effort"
+  },
+  {
+    "CODE": "11042",
+    "METS": "7.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "carpentry, general, heavy or vigorous effort"
+  },
+  {
+    "CODE": "11050",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "carrying heavy loads (e.g., bricks, tools)"
+  },
+  {
+    "CODE": "11060",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "carrying moderate loads up stairs, moving boxes 25-49 lbs"
+  },
+  {
+    "CODE": "11070",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "chambermaid, hotel housekeeper, making bed, cleaning bathroom, pushing cart"
+  },
+  {
+    "CODE": "11080",
+    "METS": "5.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "coal mining, drilling coal, rock"
+  },
+  {
+    "CODE": "11090",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "coal mining, erecting supports"
+  },
+  {
+    "CODE": "11100",
+    "METS": "5.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "coal mining, general"
+  },
+  {
+    "CODE": "11110",
+    "METS": "6.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "coal mining, shoveling coal"
+  },
+  {
+    "CODE": "11115",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "cook, chef"
+  },
+  {
+    "CODE": "11120",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "construction, outside, remodeling, new structures (e.g., roof repair, )"
+  },
+  {
+    "CODE": "11125",
+    "METS": "2.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "custodial work, light effort (e.g., cleaning sink and toilet, dusting, vacuuming, light cleaning)"
+  },
+  {
+    "CODE": "11126",
+    "METS": "3.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "custodial work, moderate effort (e.g., electric buffer, feathering arena floors, mopping, taking out trash, vacuuming)"
+  },
+  {
+    "CODE": "11130",
+    "METS": "3.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "electrical work (e.g., hook up wire, tapping-splicing)"
+  },
+  {
+    "CODE": "11135",
+    "METS": "1.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "engineer (e.g., mechanical or electrical)"
+  },
+  {
+    "CODE": "11145",
+    "METS": "7.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, vigorous effort (e.g., baling hay, cleaning barn)"
+  },
+  {
+    "CODE": "11146",
+    "METS": "4.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, moderate effort (e.g., feeding animals, chasing cattle by walking and/or horseback, spreading manure, harvesting crops)"
+  },
+  {
+    "CODE": "11147",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, light effort (e.g., cleaning animal sheds, preparing animal feed)"
+  },
+  {
+    "CODE": "11170",
+    "METS": "2.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, driving tasks (e.g., driving tractor or harvester)"
+  },
+  {
+    "CODE": "11180",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, feeding small animals"
+  },
+  {
+    "CODE": "11190",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, feeding cattle, horses"
+  },
+  {
+    "CODE": "11191",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, hauling water for animals, general hauling water,farming, general hauling water"
+  },
+  {
+    "CODE": "11192",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, taking care of animals (e.g., grooming, brushing, shearing sheep, assisting with birthing, medical care, branding), general"
+  },
+  {
+    "CODE": "11195",
+    "METS": "3.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, rice, planting, grain milling activities"
+  },
+  {
+    "CODE": "11210",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, milking by hand, cleaning pails, moderate effort"
+  },
+  {
+    "CODE": "11220",
+    "METS": "1.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "farming, milking by machine, light effort"
+  },
+  {
+    "CODE": "11240",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fire fighter, general"
+  },
+  {
+    "CODE": "11244",
+    "METS": "6.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fire fighter, rescue victim, automobile accident, using pike pole"
+  },
+  {
+    "CODE": "11245",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fire fighter, raising and climbing ladder with full gear, simulated fire supression"
+  },
+  {
+    "CODE": "11246",
+    "METS": "9.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fire fighter, hauling hoses on ground, carrying/hoisting equipment, breaking down walls etc., wearing full gear"
+  },
+  {
+    "CODE": "11247",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fishing, commercial, light effort"
+  },
+  {
+    "CODE": "11248",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fishing, commercial, moderate effort"
+  },
+  {
+    "CODE": "11249",
+    "METS": "7.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "fishing, commercial, vigorous effort"
+  },
+  {
+    "CODE": "11250",
+    "METS": "17.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "forestry, ax chopping, very fast, 1.25 kg axe, 51 blows/min, extremely vigorous effort"
+  },
+  {
+    "CODE": "11260",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "forestry, ax chopping, slow,\u00a01.25 kg axe, 19 blows/min, moderate effort"
+  },
+  {
+    "CODE": "11262",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "forestry, ax chopping, fast, 1.25 kg axe, 35 blows/min, vigorous effort"
+  },
+  {
+    "CODE": "11264",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "forestry, moderate effort (e.g., sawing wood with power saw, weeding, hoeing)"
+  },
+  {
+    "CODE": "11266",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "forestry, vigorous effort (e.g., barking, felling, or trimming trees, carrying or stacking logs, planting seeds, sawing lumber by hand)"
+  },
+  {
+    "CODE": "11370",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "furriery"
+  },
+  {
+    "CODE": "11375",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "garbage collector, walking, dumping bins into truck"
+  },
+  {
+    "CODE": "11378",
+    "METS": "1.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "hairstylist (e.g., plaiting hair, manicure, make-up artist)"
+  },
+  {
+    "CODE": "11380",
+    "METS": "7.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "horse grooming, including\u00a0 feeding, cleaning stalls, bathing, brushing, clipping ,\u00a0longeing and exercising horses"
+  },
+  {
+    "CODE": "11381",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "horse, feeding, watering, cleaning stalls, implied walking and lifting loads"
+  },
+  {
+    "CODE": "11390",
+    "METS": "7.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "horse racing, galloping"
+  },
+  {
+    "CODE": "11400",
+    "METS": "5.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "horse racing, trotting"
+  },
+  {
+    "CODE": "11410",
+    "METS": "3.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "horse racing, walking"
+  },
+  {
+    "CODE": "11413",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "kitchen maid"
+  },
+  {
+    "CODE": "11415",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "lawn keeper, yard work, general"
+  },
+  {
+    "CODE": "11418",
+    "METS": "3.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "laundry worker"
+  },
+  {
+    "CODE": "11420",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "locksmith"
+  },
+  {
+    "CODE": "11430",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "machine tooling (e.g., machining, working sheet metal, machine fitter, operating lathe, welding) light-to-moderate effort"
+  },
+  {
+    "CODE": "11450",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "Machine tooling, operating punch press, moderate effort"
+  },
+  {
+    "CODE": "11472",
+    "METS": "1.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "manager, property"
+  },
+  {
+    "CODE": "11475",
+    "METS": "2.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "manual or unskilled labor, general, light effort"
+  },
+  {
+    "CODE": "11476",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "manual or unskilled labor, general, moderate effort"
+  },
+  {
+    "CODE": "11477",
+    "METS": "6.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "manual or unskilled labor, general, vigorous effort"
+  },
+  {
+    "CODE": "11480",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "masonry, concrete, moderate effort"
+  },
+  {
+    "CODE": "11482",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "masonry, concrete, light effort"
+  },
+  {
+    "CODE": "11485",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "massage therapist, standing"
+  },
+  {
+    "CODE": "11490",
+    "METS": "7.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "moving, carrying or pushing heavy objects, 75 lbs or more, only active time (e.g., desks, moving van work)"
+  },
+  {
+    "CODE": "11495",
+    "METS": "12.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "skindiving or SCUBA diving as a frogman, Navy Seal"
+  },
+  {
+    "CODE": "11500",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "operating heavy duty equipment, automated, not driving"
+  },
+  {
+    "CODE": "11510",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "orange grove work, picking fruit"
+  },
+  {
+    "CODE": "11514",
+    "METS": "3.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "painting,house, furniture, moderate effort"
+  },
+  {
+    "CODE": "11516",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "plumbing activities"
+  },
+  {
+    "CODE": "11520",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "printing, paper industry worker, standing"
+  },
+  {
+    "CODE": "11525",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "police, directing traffic, standing"
+  },
+  {
+    "CODE": "11526",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "police, driving a squad car, sitting"
+  },
+  {
+    "CODE": "11527",
+    "METS": "1.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "police, riding in a squad car, sitting"
+  },
+  {
+    "CODE": "11528",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "police, making an arrest, standing"
+  },
+  {
+    "CODE": "11529",
+    "METS": "2.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "postal carrier, walking to deliver mail"
+  },
+  {
+    "CODE": "11530",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "shoe repair, general"
+  },
+  {
+    "CODE": "11540",
+    "METS": "7.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "shoveling, digging ditches"
+  },
+  {
+    "CODE": "11550",
+    "METS": "8.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "shoveling, more than 16 lbs/minute, deep digging, vigorous effort"
+  },
+  {
+    "CODE": "11560",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "shoveling, less than 10 lbs/minute, moderate effort"
+  },
+  {
+    "CODE": "11570",
+    "METS": "6.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "shoveling, 10 to 15 lbs/minute, vigorous effort"
+  },
+  {
+    "CODE": "11580",
+    "METS": "1.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "sitting tasks, light effort (e.g., office work, chemistry lab work, computer work, light assembly repair, watch repair, reading, desk work)"
+  },
+  {
+    "CODE": "11585",
+    "METS": "1.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "sitting meetings, light effort, general, and/or with talking involved (e.g., eating at a business meeting)"
+  },
+  {
+    "CODE": "11590",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "sitting tasks, moderate effort (e.g., pushing heavy levers, riding mower/forklift, crane operation)"
+  },
+  {
+    "CODE": "11593",
+    "METS": "2.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "sitting, teaching stretching or yoga, or light effort exercise class"
+  },
+  {
+    "CODE": "11600",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "standing tasks, light effort (e.g., bartending, store clerk, assembling, filing, duplicating, librarian, putting up a Christmas tree, standing and talking at work, changing clothes when teaching physical education, standing)"
+  },
+  {
+    "CODE": "11610",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "standing, light/moderate effort (e.g., assemble/repair heavy parts, welding,stocking parts,auto repair,standing, packing boxes, nursing patient care)"
+  },
+  {
+    "CODE": "11615",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "standing, moderate effort, lifting items continuously, 10 \u2013 20 lbs, with limited walking or resting"
+  },
+  {
+    "CODE": "11620",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "standing, moderate effort, intermittent lifting 50 lbs, hitch/twisting ropes"
+  },
+  {
+    "CODE": "11630",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "standing, moderate/heavy tasks (e.g., lifting more than 50 lbs, masonry, painting, paper hanging)"
+  },
+  {
+    "CODE": "11708",
+    "METS": "5.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "steel mill, moderate effort (e.g., fettling, forging, tipping molds)"
+  },
+  {
+    "CODE": "11710",
+    "METS": "8.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "steel mill, vigorous effort (e.g., hand rolling, merchant mill rolling, removing slag, tending furnace)"
+  },
+  {
+    "CODE": "11720",
+    "METS": "2.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, cutting fabric"
+  },
+  {
+    "CODE": "11730",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, general"
+  },
+  {
+    "CODE": "11740",
+    "METS": "1.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, hand sewing"
+  },
+  {
+    "CODE": "11750",
+    "METS": "2.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, machine sewing"
+  },
+  {
+    "CODE": "11760",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, pressing"
+  },
+  {
+    "CODE": "11763",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, weaving, light effort (e.g., finishing operations, washing, dyeing, inspecting cloth, counting yards, paperwork)"
+  },
+  {
+    "CODE": "11765",
+    "METS": "4.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "tailoring, weaving, moderate effort (e.g., spinning and weaving operations, delivering boxes of yam to spinners, loading of warp bean, pinwinding, conewinding, warping, cloth cutting)"
+  },
+  {
+    "CODE": "11766",
+    "METS": "6.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "truck driving, loading and unloading truck, tying down load, standing, walking and carrying heavy loads"
+  },
+  {
+    "CODE": "11767",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "Truch, driving delivery truck, taxi, shuttlebus, school bus"
+  },
+  {
+    "CODE": "11770",
+    "METS": "1.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "typing, electric, manual or computer"
+  },
+  {
+    "CODE": "11780",
+    "METS": "6.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "using heavy power tools such as pneumatic tools (e.g., jackhammers, drills)"
+  },
+  {
+    "CODE": "11790",
+    "METS": "8.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "using heavy tools (not power) such as shovel, pick, tunnel bar, spade"
+  },
+  {
+    "CODE": "11791",
+    "METS": "2.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking on job, less than mph, very slow speed, in office or lab area"
+  },
+  {
+    "CODE": "11792",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking on job, 3.0 mph, in office, moderate speed, not carrying anything"
+  },
+  {
+    "CODE": "11793",
+    "METS": "4.3",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking on job, 3.5 mph, in office, brisk speed, not carrying anything"
+  },
+  {
+    "CODE": "11795",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking on job, 2.5 mph, slow speed and carrying light objects less than 25 lbs"
+  },
+  {
+    "CODE": "11796",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking, gathering things at work, ready to leave"
+  },
+  {
+    "CODE": "11797",
+    "METS": "3.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking, 2.5 mph, slow speed, carrying heavy objects more than 25 lbs"
+  },
+  {
+    "CODE": "11800",
+    "METS": "4.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking, 3.0 mph, moderately and carrying light objects less than 25 lbs"
+  },
+  {
+    "CODE": "11805",
+    "METS": "3.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking, pushing a wheelchair"
+  },
+  {
+    "CODE": "11810",
+    "METS": "4.8",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking, 3.5 mph, briskly and carrying objects less than 25 lbs"
+  },
+  {
+    "CODE": "11820",
+    "METS": "5.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking or walk downstairs or standing, carrying objects about 25 to 49 lbs"
+  },
+  {
+    "CODE": "11830",
+    "METS": "6.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking or walk downstairs or standing, carrying objects about 50 to 74 lbs"
+  },
+  {
+    "CODE": "11840",
+    "METS": "7.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking or walk downstairs or standing, carrying objects about 75 to 99 lbs"
+  },
+  {
+    "CODE": "11850",
+    "METS": "8.5",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "walking or walk downstairs or standing, carrying objects about 100 lbs or more"
+  },
+  {
+    "CODE": "11870",
+    "METS": "3.0",
+    "MAJOR HEADING": "occupation",
+    "SPECIFIC ACTIVITIES": "working in scene shop, theater actor, backstage employee"
+  },
+  {
+    "CODE": "12010",
+    "METS": "6.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "jog/walk combination (jogging component of less than 10 minutes) (Taylor Code 180)"
+  },
+  {
+    "CODE": "12020",
+    "METS": "7.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "jogging, general"
+  },
+  {
+    "CODE": "12025",
+    "METS": "8.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "jogging, in place"
+  },
+  {
+    "CODE": "12027",
+    "METS": "4.5",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "jogging, on a mini-tramp"
+  },
+  {
+    "CODE": "12029",
+    "METS": "6.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "Running, 4 mph (13 min/mile)"
+  },
+  {
+    "CODE": "12030",
+    "METS": "8.3",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 5 mph (12 min/mile)"
+  },
+  {
+    "CODE": "12040",
+    "METS": "9.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 5.2 mph (11.5 min/mile)"
+  },
+  {
+    "CODE": "12050",
+    "METS": "9.8",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 6 mph (10 min/mile)"
+  },
+  {
+    "CODE": "12060",
+    "METS": "10.5",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 6.7 mph (9 min/mile)"
+  },
+  {
+    "CODE": "12070",
+    "METS": "11.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 7 mph (8.5 min/mile)"
+  },
+  {
+    "CODE": "12080",
+    "METS": "11.5",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 7.5 mph (8 min/mile)"
+  },
+  {
+    "CODE": "12090",
+    "METS": "11.8",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 8 mph (7.5 min/mile)"
+  },
+  {
+    "CODE": "12100",
+    "METS": "12.3",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 8.6 mph (7 min/mile)"
+  },
+  {
+    "CODE": "12110",
+    "METS": "12.8",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 9 mph (6.5 min/mile)"
+  },
+  {
+    "CODE": "12120",
+    "METS": "14.5",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 10 mph (6 min/mile)"
+  },
+  {
+    "CODE": "12130",
+    "METS": "16.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 11 mph (5.5 min/mile)"
+  },
+  {
+    "CODE": "12132",
+    "METS": "19.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "0\u00a0  running, 12 mph (5 min/mile)"
+  },
+  {
+    "CODE": "12134",
+    "METS": "19.8",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 13 mph (4.6 min/mile)"
+  },
+  {
+    "CODE": "12135",
+    "METS": "23.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, 14 mph (4.3 min/mile)"
+  },
+  {
+    "CODE": "12140",
+    "METS": "9.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, cross country"
+  },
+  {
+    "CODE": "12150",
+    "METS": "8.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, (Taylor code 200)"
+  },
+  {
+    "CODE": "12170",
+    "METS": "15.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, stairs, up"
+  },
+  {
+    "CODE": "12180",
+    "METS": "10.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, on a track, team practice"
+  },
+  {
+    "CODE": "12190",
+    "METS": "8.0",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, training, pushing a wheelchair or baby carrier"
+  },
+  {
+    "CODE": "12200",
+    "METS": "13.3",
+    "MAJOR HEADING": "running",
+    "SPECIFIC ACTIVITIES": "running, marathon"
+  },
+  {
+    "CODE": "13000",
+    "METS": "2.3",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "getting ready for bed, general, standing"
+  },
+  {
+    "CODE": "13009",
+    "METS": "1.8",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "sitting on toilet, eliminating while standing or squating"
+  },
+  {
+    "CODE": "13010",
+    "METS": "1.5",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "bathing, sitting"
+  },
+  {
+    "CODE": "13020",
+    "METS": "2.5",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "dressing, undressing, standing or sitting"
+  },
+  {
+    "CODE": "13030",
+    "METS": "1.5",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "eating, sitting"
+  },
+  {
+    "CODE": "13035",
+    "METS": "2.0",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "talking and eating or eating only, standing"
+  },
+  {
+    "CODE": "13036",
+    "METS": "1.5",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "taking medication, sitting or standing"
+  },
+  {
+    "CODE": "13040",
+    "METS": "2.0",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "grooming, washing hands, shaving,\u00a0brushing teeth, putting on make-up, sitting or standing"
+  },
+  {
+    "CODE": "13045",
+    "METS": "2.5",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "hairstyling, standing"
+  },
+  {
+    "CODE": "13046",
+    "METS": "1.3",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "having hair or nails done by someone else, sitting"
+  },
+  {
+    "CODE": "13050",
+    "METS": "2.0",
+    "MAJOR HEADING": "self care",
+    "SPECIFIC ACTIVITIES": "showering, toweling off, standing"
+  },
+  {
+    "CODE": "14010",
+    "METS": "2.8",
+    "MAJOR HEADING": "sexual activity",
+    "SPECIFIC ACTIVITIES": "active, vigorous effort"
+  },
+  {
+    "CODE": "14020",
+    "METS": "1.8",
+    "MAJOR HEADING": "sexual activity",
+    "SPECIFIC ACTIVITIES": "general, moderate effort"
+  },
+  {
+    "CODE": "14030",
+    "METS": "1.3",
+    "MAJOR HEADING": "sexual activity",
+    "SPECIFIC ACTIVITIES": "passive, light effort, kissing, hugging"
+  },
+  {
+    "CODE": "15000",
+    "METS": "5.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "Alaska Native Games, Eskimo Olympics, general"
+  },
+  {
+    "CODE": "15010",
+    "METS": "4.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "archery, non-hunting"
+  },
+  {
+    "CODE": "15020",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "badminton, competitive (Taylor Code 450)"
+  },
+  {
+    "CODE": "15030",
+    "METS": "5.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "badminton, social singles and doubles, general"
+  },
+  {
+    "CODE": "15040",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, game (Taylor Code 490)"
+  },
+  {
+    "CODE": "15050",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, non-game, general (Taylor Code 480)"
+  },
+  {
+    "CODE": "15055",
+    "METS": "6.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, general"
+  },
+  {
+    "CODE": "15060",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, officiating (Taylor Code 500)"
+  },
+  {
+    "CODE": "15070",
+    "METS": "4.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, shooting baskets"
+  },
+  {
+    "CODE": "15072",
+    "METS": "9.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, drills, practice"
+  },
+  {
+    "CODE": "15075",
+    "METS": "7.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "basketball, wheelchair"
+  },
+  {
+    "CODE": "15080",
+    "METS": "2.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "billiards"
+  },
+  {
+    "CODE": "15090",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "bowling (Taylor Code 390)"
+  },
+  {
+    "CODE": "15092",
+    "METS": "3.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "bowling, indoor, bowling alley"
+  },
+  {
+    "CODE": "15100",
+    "METS": "12.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "boxing, in ring, general"
+  },
+  {
+    "CODE": "15110",
+    "METS": "5.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "boxing, punching bag"
+  },
+  {
+    "CODE": "15120",
+    "METS": "7.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "boxing, sparring"
+  },
+  {
+    "CODE": "15130",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "broomball"
+  },
+  {
+    "CODE": "15135",
+    "METS": "5.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "children\u2019s games, adults playing (e.g., hopscotch, 4-square, dodgeball, playground apparatus, t-ball, tetherball, marbles, arcade games), moderate effort"
+  },
+  {
+    "CODE": "15138",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "cheerleading, gymnastic moves, competitive"
+  },
+  {
+    "CODE": "15140",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "coaching, football, soccer, basketball, baseball, swimming, etc."
+  },
+  {
+    "CODE": "15142",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "coaching, actively playing sport with players"
+  },
+  {
+    "CODE": "15150",
+    "METS": "4.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "cricket, batting, bowling, fielding"
+  },
+  {
+    "CODE": "15160",
+    "METS": "3.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "croquet"
+  },
+  {
+    "CODE": "15170",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "curling"
+  },
+  {
+    "CODE": "15180",
+    "METS": "2.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "darts, wall or lawn"
+  },
+  {
+    "CODE": "15190",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "drag racing, pushing or driving a car"
+  },
+  {
+    "CODE": "15192",
+    "METS": "8.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "auto racing, open wheel"
+  },
+  {
+    "CODE": "15200",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "fencing"
+  },
+  {
+    "CODE": "15210",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "football, competitive"
+  },
+  {
+    "CODE": "15230",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "football, touch, flag, general (Taylor Code 510)"
+  },
+  {
+    "CODE": "15232",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "football, touch, flag, light effort"
+  },
+  {
+    "CODE": "15235",
+    "METS": "2.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "football or baseball, playing catch"
+  },
+  {
+    "CODE": "15240",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "frisbee playing, general"
+  },
+  {
+    "CODE": "15250",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "frisbee, ultimate"
+  },
+  {
+    "CODE": "15255",
+    "METS": "4.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "golf, general"
+  },
+  {
+    "CODE": "15265",
+    "METS": "4.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "golf, walking, carrying clubs"
+  },
+  {
+    "CODE": "15270",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "golf, miniature, driving range"
+  },
+  {
+    "CODE": "15285",
+    "METS": "5.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "golf, walking, pulling clubs"
+  },
+  {
+    "CODE": "15290",
+    "METS": "3.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "golf, using power cart (Taylor Code 070)"
+  },
+  {
+    "CODE": "15300",
+    "METS": "3.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "gymnastics, general"
+  },
+  {
+    "CODE": "15310",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "hacky sack"
+  },
+  {
+    "CODE": "15320",
+    "METS": "12.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "handball, general (Taylor Code 520)"
+  },
+  {
+    "CODE": "15330",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "handball, team"
+  },
+  {
+    "CODE": "15335",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "high ropes course, multiple elements"
+  },
+  {
+    "CODE": "15340",
+    "METS": "3.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "hang gliding"
+  },
+  {
+    "CODE": "15350",
+    "METS": "7.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "hockey, field"
+  },
+  {
+    "CODE": "15360",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "hockey, ice, general"
+  },
+  {
+    "CODE": "15362",
+    "METS": "10.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "hockey, ice, competitive"
+  },
+  {
+    "CODE": "15370",
+    "METS": "5.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseback riding, general"
+  },
+  {
+    "CODE": "15375",
+    "METS": "4.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horse chores, feeding, watering, cleaning stalls, implied walking and lifting loads"
+  },
+  {
+    "CODE": "15380",
+    "METS": "4.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "saddling, cleaning, grooming, harnessing and unharnessing horse"
+  },
+  {
+    "CODE": "15390",
+    "METS": "5.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseback riding, trotting"
+  },
+  {
+    "CODE": "15395",
+    "METS": "7.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseback riding, canter or gallop"
+  },
+  {
+    "CODE": "15400",
+    "METS": "3.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseback riding,walking"
+  },
+  {
+    "CODE": "15402",
+    "METS": "9.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseback riding, jumping"
+  },
+  {
+    "CODE": "15408",
+    "METS": "1.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horse cart, driving, standing or sitting"
+  },
+  {
+    "CODE": "15410",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "horseshoe pitching, quoits"
+  },
+  {
+    "CODE": "15420",
+    "METS": "12.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "jai alai"
+  },
+  {
+    "CODE": "15425",
+    "METS": "5.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "martial arts, different types, slower pace, novice performers, practice"
+  },
+  {
+    "CODE": "15430",
+    "METS": "10.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "martial arts, different types, moderate pace (e.g., judo, jujitsu, karate, kick boxing, tae kwan do, tai-bo, Muay Thai boxing)"
+  },
+  {
+    "CODE": "15440",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "juggling"
+  },
+  {
+    "CODE": "15450",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "kickball"
+  },
+  {
+    "CODE": "15460",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "lacrosse"
+  },
+  {
+    "CODE": "15465",
+    "METS": "3.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "lawn bowling, bocce ball, outdoor"
+  },
+  {
+    "CODE": "15470",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "moto-cross, off-road motor sports, all-terrain vehicle, general"
+  },
+  {
+    "CODE": "15480",
+    "METS": "9.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "orienteering"
+  },
+  {
+    "CODE": "15490",
+    "METS": "10.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "paddleball, competitive"
+  },
+  {
+    "CODE": "15500",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "paddleball, casual, general (Taylor Code 460)"
+  },
+  {
+    "CODE": "15510",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "polo, on horseback"
+  },
+  {
+    "CODE": "15520",
+    "METS": "10.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "racquetball, competitive"
+  },
+  {
+    "CODE": "15530",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "racquetball, general (Taylor Code 470)"
+  },
+  {
+    "CODE": "15533",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rock or mountain climbing (Taylor Code 470)\u00a0 (Formerly code = 17120)"
+  },
+  {
+    "CODE": "15535",
+    "METS": "7.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rock climbing, ascending rock, high difficulty"
+  },
+  {
+    "CODE": "15537",
+    "METS": "5.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rock climbing, ascending or traversing rock, low-to-moderate difficulty"
+  },
+  {
+    "CODE": "15540",
+    "METS": "5.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rock climbing, rappelling"
+  },
+  {
+    "CODE": "15542",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rodeo sports, general, light effort"
+  },
+  {
+    "CODE": "15544",
+    "METS": "5.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rodeo sports, general, moderate effort"
+  },
+  {
+    "CODE": "15546",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rodeo sports, general, vigorous effort"
+  },
+  {
+    "CODE": "15550",
+    "METS": "12.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rope jumping, fast pace, 120-160 skips/min"
+  },
+  {
+    "CODE": "15551",
+    "METS": "11.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rope jumping, moderate pace, 100-120 skips/min, general,\u00a0 2 foot skip, plain bounce"
+  },
+  {
+    "CODE": "15552",
+    "METS": "8.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rope jumping, slow pace, < 100 skips/min, 2 foot skip, rhythm bounce"
+  },
+  {
+    "CODE": "15560",
+    "METS": "8.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rugby, union, team, competitive"
+  },
+  {
+    "CODE": "15562",
+    "METS": "6.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rugby, touch, non-competitive"
+  },
+  {
+    "CODE": "15570",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "shuffleboard"
+  },
+  {
+    "CODE": "15580",
+    "METS": "5.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "skateboarding, general, moderate effort"
+  },
+  {
+    "CODE": "15582",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "skateboarding, competitive, vigorous effort"
+  },
+  {
+    "CODE": "15590",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "skating, roller (Taylor Code 360)"
+  },
+  {
+    "CODE": "15591",
+    "METS": "7.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rollerblading, in-line skating, 14.4 km/h (9.0 mph), recreational pace"
+  },
+  {
+    "CODE": "15592",
+    "METS": "9.8",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rollerblading, in-line skating, 17.7 km/h (11.0 mph), moderate pace, exercise training"
+  },
+  {
+    "CODE": "15593",
+    "METS": "12.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rollerblading, in-line skating, 21.0 to 21.7 km/h (13.0 to 13.6 mph), fast pace, exercise training"
+  },
+  {
+    "CODE": "15594",
+    "METS": "14.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "rollerblading, in-line skating, 24.0 km/h (15.0 mph), maximal effort"
+  },
+  {
+    "CODE": "15600",
+    "METS": "3.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "skydiving, base jumping, bungee jumping"
+  },
+  {
+    "CODE": "15605",
+    "METS": "10.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "soccer, competitive"
+  },
+  {
+    "CODE": "15610",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "soccer, casual, general (Taylor Code 540)"
+  },
+  {
+    "CODE": "15620",
+    "METS": "5.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "softball or baseball, fast or slow pitch, general (Taylor Code 440)"
+  },
+  {
+    "CODE": "15625",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "softball, practice"
+  },
+  {
+    "CODE": "15630",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "softball, officiating"
+  },
+  {
+    "CODE": "15640",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "softball,pitching"
+  },
+  {
+    "CODE": "15645",
+    "METS": "3.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "sports spectator, very excited, emotional, physically moving"
+  },
+  {
+    "CODE": "15650",
+    "METS": "12.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "squash (Taylor Code 530)"
+  },
+  {
+    "CODE": "15652",
+    "METS": "7.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "squash, general"
+  },
+  {
+    "CODE": "15660",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "table tennis, ping pong (Taylor Code 410)"
+  },
+  {
+    "CODE": "15670",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tai chi, qi gong, general"
+  },
+  {
+    "CODE": "15672",
+    "METS": "1.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tai chi, qi gong, sitting, light effort"
+  },
+  {
+    "CODE": "15675",
+    "METS": "7.3",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tennis, general"
+  },
+  {
+    "CODE": "15680",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tennis, doubles (Taylor Code 430)"
+  },
+  {
+    "CODE": "15685",
+    "METS": "4.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tennis, doubles"
+  },
+  {
+    "CODE": "15690",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tennis, singles (Taylor Code 420)"
+  },
+  {
+    "CODE": "15695",
+    "METS": "5.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "tennis, hitting balls, non-game play, moderate effort"
+  },
+  {
+    "CODE": "15700",
+    "METS": "3.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "trampoline, recreational"
+  },
+  {
+    "CODE": "15702",
+    "METS": "4.5",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "trampoline, competitive"
+  },
+  {
+    "CODE": "15710",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "volleyball (Taylor Code 400)"
+  },
+  {
+    "CODE": "15711",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "volleyball, competitive, in gymnasium"
+  },
+  {
+    "CODE": "15720",
+    "METS": "3.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "volleyball, non-competitive, 6 - 9 member team, general"
+  },
+  {
+    "CODE": "15725",
+    "METS": "8.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "volleyball, beach, in sand"
+  },
+  {
+    "CODE": "15730",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "wrestling (one match = 5 minutes)"
+  },
+  {
+    "CODE": "15731",
+    "METS": "7.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "wallyball, general"
+  },
+  {
+    "CODE": "15732",
+    "METS": "4.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "track and field (e.g., shot, discus, hammer throw)"
+  },
+  {
+    "CODE": "15733",
+    "METS": "6.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "track and field (e.g., high jump, long jump, triple jump, javelin, pole vault)"
+  },
+  {
+    "CODE": "15734",
+    "METS": "10.0",
+    "MAJOR HEADING": "sports",
+    "SPECIFIC ACTIVITIES": "track and field (e.g., steeplechase, hurdles)"
+  },
+  {
+    "CODE": "16010",
+    "METS": "2.5",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "automobile or light truck (not a semi) driving"
+  },
+  {
+    "CODE": "16015",
+    "METS": "1.3",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "riding in a car or truck"
+  },
+  {
+    "CODE": "16016",
+    "METS": "1.3",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "riding in a bus or train"
+  },
+  {
+    "CODE": "16020",
+    "METS": "1.8",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "flying airplane or helicopter"
+  },
+  {
+    "CODE": "16030",
+    "METS": "3.5",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "motor scooter, motorcycle"
+  },
+  {
+    "CODE": "16035",
+    "METS": "6.3",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "pulling rickshaw"
+  },
+  {
+    "CODE": "16040",
+    "METS": "6.0",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "pushing plane in and out of hangar"
+  },
+  {
+    "CODE": "16050",
+    "METS": "2.5",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "truck, semi, tractor, > 1 ton, or bus, driving"
+  },
+  {
+    "CODE": "16060",
+    "METS": "3.5",
+    "MAJOR HEADING": "transportation",
+    "SPECIFIC ACTIVITIES": "walking for transportation, 2.8-3.2 mph, level, moderate pace, firm surface"
+  },
+  {
+    "CODE": "17010",
+    "METS": "7.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "backpacking (Taylor Code 050)"
+  },
+  {
+    "CODE": "17012",
+    "METS": "7.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "backpacking, hiking or organized walking with a daypack"
+  },
+  {
+    "CODE": "17020",
+    "METS": "5.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 15 pound load (e.g. suitcase), level ground or downstairs"
+  },
+  {
+    "CODE": "17021",
+    "METS": "2.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 15 lb child, slow walking"
+  },
+  {
+    "CODE": "17025",
+    "METS": "8.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying load upstairs, general"
+  },
+  {
+    "CODE": "17026",
+    "METS": "5.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 1 to 15 lb load, upstairs"
+  },
+  {
+    "CODE": "17027",
+    "METS": "6.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 16 to 24 lb load, upstairs"
+  },
+  {
+    "CODE": "17028",
+    "METS": "8.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 25 to 49 lb load, upstairs"
+  },
+  {
+    "CODE": "17029",
+    "METS": "10.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying 50 to 74 lb load, upstairs"
+  },
+  {
+    "CODE": "17030",
+    "METS": "12.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "carrying > 74 lb load, upstairs"
+  },
+  {
+    "CODE": "17031",
+    "METS": "3.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "loading /unloading a car, implied walking"
+  },
+  {
+    "CODE": "17033",
+    "METS": "6.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "climbing hills, no load"
+  },
+  {
+    "CODE": "17035",
+    "METS": "6.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "climbing hills with 0 to 9 lb load"
+  },
+  {
+    "CODE": "17040",
+    "METS": "7.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "climbing hills with 10 to 20 lb load"
+  },
+  {
+    "CODE": "17050",
+    "METS": "8.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "climbing hills with 21 to 42 lb load"
+  },
+  {
+    "CODE": "17060",
+    "METS": "9.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "climbing hills with 42+ lb load"
+  },
+  {
+    "CODE": "17070",
+    "METS": "3.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "descending stairs"
+  },
+  {
+    "CODE": "17080",
+    "METS": "6.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "hiking, cross country (Taylor Code 040)"
+  },
+  {
+    "CODE": "17082",
+    "METS": "5.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "hiking or walking at a normal pace through fields and hillsides"
+  },
+  {
+    "CODE": "17085",
+    "METS": "2.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "bird watching, slow walk"
+  },
+  {
+    "CODE": "17088",
+    "METS": "4.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "marching, moderate speed, military, no pack"
+  },
+  {
+    "CODE": "17090",
+    "METS": "8.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "marching rapidly, military, no pack"
+  },
+  {
+    "CODE": "17100",
+    "METS": "4.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "pushing or pulling stroller with child or walking with children, 2.5 to 3.1 mph"
+  },
+  {
+    "CODE": "17105",
+    "METS": "3.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking pushing a wheelchair, non-al"
+  },
+  {
+    "CODE": "17110",
+    "METS": "6.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "race walking"
+  },
+  {
+    "CODE": "17130",
+    "METS": "8.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "stair climbing, using or climbing up ladder (Taylor Code 030)"
+  },
+  {
+    "CODE": "17133",
+    "METS": "4.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "stair climbing, slow pace"
+  },
+  {
+    "CODE": "17134",
+    "METS": "8.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "stair climbing, fast pace"
+  },
+  {
+    "CODE": "17140",
+    "METS": "5.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "using crutches"
+  },
+  {
+    "CODE": "17150",
+    "METS": "2.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, household"
+  },
+  {
+    "CODE": "17151",
+    "METS": "2.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, less than mph, level, strolling, very slow"
+  },
+  {
+    "CODE": "17152",
+    "METS": "2.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.0 mph, level, slow pace, firm surface"
+  },
+  {
+    "CODE": "17160",
+    "METS": "3.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking for pleasure (Taylor Code 010)"
+  },
+  {
+    "CODE": "17161",
+    "METS": "2.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking from house to car or bus, from car or bus to go places, from car or bus to and from the worksite"
+  },
+  {
+    "CODE": "17162",
+    "METS": "2.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking to neighbor\u2019s house or family\u2019s house for social reasons"
+  },
+  {
+    "CODE": "17165",
+    "METS": "3.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking the dog"
+  },
+  {
+    "CODE": "17170",
+    "METS": "3.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.5 mph, level, firm surface"
+  },
+  {
+    "CODE": "17180",
+    "METS": "3.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.5 mph, downhill"
+  },
+  {
+    "CODE": "17190",
+    "METS": "3.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.8 to 3.2 mph, level, moderate pace, firm surface"
+  },
+  {
+    "CODE": "17200",
+    "METS": "4.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 3.5 mph, level, brisk, firm surface, walking for exercise"
+  },
+  {
+    "CODE": "17210",
+    "METS": "5.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.9 to 3.5 mph, uphill, 1 to 5% grade"
+  },
+  {
+    "CODE": "17211",
+    "METS": "8.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 2.9 to 3.5 mph, uphill, 6% to 15% grade"
+  },
+  {
+    "CODE": "17220",
+    "METS": "5.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 4.0 mph, level, firm surface, very brisk pace"
+  },
+  {
+    "CODE": "17230",
+    "METS": "7.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 4.5 mph, level, firm surface, very, very brisk"
+  },
+  {
+    "CODE": "17231",
+    "METS": "8.3",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 5.0 mph, level, firm surface"
+  },
+  {
+    "CODE": "17235",
+    "METS": "9.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, 5.0 mph, uphill, 3% grade"
+  },
+  {
+    "CODE": "17250",
+    "METS": "3.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, for pleasure, work break"
+  },
+  {
+    "CODE": "17260",
+    "METS": "4.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, grass track"
+  },
+  {
+    "CODE": "17262",
+    "METS": "4.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, normal pace, plowed field or sand"
+  },
+  {
+    "CODE": "17270",
+    "METS": "4.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, to work or class (Taylor Code 015)"
+  },
+  {
+    "CODE": "17280",
+    "METS": "2.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, to and from an outhouse"
+  },
+  {
+    "CODE": "17302",
+    "METS": "4.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, for exercise, 3.5 to 4 mph, with ski poles, Nordic walking, level, moderate pace"
+  },
+  {
+    "CODE": "17305",
+    "METS": "9.5",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, for exercise, 5.0 mph, with ski poles, Nordic walking, level, fast pace"
+  },
+  {
+    "CODE": "17310",
+    "METS": "6.8",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, for exercise, with ski poles, Nordic walking, uphill"
+  },
+  {
+    "CODE": "17320",
+    "METS": "6.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, backwards, 3.5 mph, level"
+  },
+  {
+    "CODE": "17325",
+    "METS": "8.0",
+    "MAJOR HEADING": "walking",
+    "SPECIFIC ACTIVITIES": "walking, backwards, 3.5 mph, uphill, 5% grade"
+  },
+  {
+    "CODE": "18010",
+    "METS": "2.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "boating, power, driving"
+  },
+  {
+    "CODE": "18012",
+    "METS": "1.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "boating, power, passenger, light"
+  },
+  {
+    "CODE": "18020",
+    "METS": "4.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, on camping trip (Taylor Code 270)"
+  },
+  {
+    "CODE": "18025",
+    "METS": "3.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, harvesting wild rice, knocking rice off the stalks"
+  },
+  {
+    "CODE": "18030",
+    "METS": "7.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, portaging"
+  },
+  {
+    "CODE": "18040",
+    "METS": "2.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, rowing, 2.0-3.9 mph, light effort"
+  },
+  {
+    "CODE": "18050",
+    "METS": "5.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, rowing, 4.0-5.9 mph, moderate effort"
+  },
+  {
+    "CODE": "18060",
+    "METS": "12.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, rowing, kayaking, competition, >6 mph, vigorous effort"
+  },
+  {
+    "CODE": "18070",
+    "METS": "3.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, rowing, for pleasure, general (Taylor Code 250)"
+  },
+  {
+    "CODE": "18080",
+    "METS": "12.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "canoeing, rowing, in competition, or crew or sculling (Taylor Code 260)"
+  },
+  {
+    "CODE": "18090",
+    "METS": "3.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "diving, springboard or platform"
+  },
+  {
+    "CODE": "18100",
+    "METS": "5.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "kayaking, moderate effort"
+  },
+  {
+    "CODE": "18110",
+    "METS": "4.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "paddle boat"
+  },
+  {
+    "CODE": "18120",
+    "METS": "3.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "sailing, boat and board sailing, windsurfing, ice sailing, general (Taylor Code 235)"
+  },
+  {
+    "CODE": "18130",
+    "METS": "4.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "sailing, in competition"
+  },
+  {
+    "CODE": "18140",
+    "METS": "3.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "sailing, Sunfish/Laser/Hobby Cat, Keel boats, ocean sailing, yachting, leisure"
+  },
+  {
+    "CODE": "18150",
+    "METS": "6.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "skiing, water or wakeboarding (Taylor Code 220)"
+  },
+  {
+    "CODE": "18160",
+    "METS": "7.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "jet skiing, driving, in water"
+  },
+  {
+    "CODE": "18180",
+    "METS": "15.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "skindiving, fast"
+  },
+  {
+    "CODE": "18190",
+    "METS": "11.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "skindiving, moderate"
+  },
+  {
+    "CODE": "18200",
+    "METS": "7.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "skindiving, scuba diving, general (Taylor Code 310)"
+  },
+  {
+    "CODE": "18210",
+    "METS": "5.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "snorkeling (Taylor Code 310)"
+  },
+  {
+    "CODE": "18220",
+    "METS": "3.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "surfing, body or board, general"
+  },
+  {
+    "CODE": "18222",
+    "METS": "5.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "surfing, body or board, competitive"
+  },
+  {
+    "CODE": "18225",
+    "METS": "6.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "paddle boarding, standing"
+  },
+  {
+    "CODE": "18230",
+    "METS": "9.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming laps, freestyle, fast, vigorous effort"
+  },
+  {
+    "CODE": "18240",
+    "METS": "5.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming laps, freestyle, front crawl, slow, light or moderate effort"
+  },
+  {
+    "CODE": "18250",
+    "METS": "9.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, backstroke, general, training or competition"
+  },
+  {
+    "CODE": "18255",
+    "METS": "4.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, backstroke, recreational"
+  },
+  {
+    "CODE": "18260",
+    "METS": "10.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, breaststroke, general, training or competition"
+  },
+  {
+    "CODE": "18265",
+    "METS": "5.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, breaststroke, recreational"
+  },
+  {
+    "CODE": "18270",
+    "METS": "13.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, butterfly, general"
+  },
+  {
+    "CODE": "18280",
+    "METS": "10.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, crawl, fast speed, ~75 yards/minute, vigorous effort"
+  },
+  {
+    "CODE": "18290",
+    "METS": "8.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, crawl, medium speed, ~50 yards/minute, vigorous effort"
+  },
+  {
+    "CODE": "18300",
+    "METS": "6.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, lake, ocean, river (Taylor Codes 280, 295)"
+  },
+  {
+    "CODE": "18310",
+    "METS": "6.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, leisurely, not lap swimming, general"
+  },
+  {
+    "CODE": "18320",
+    "METS": "7.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, sidestroke, general"
+  },
+  {
+    "CODE": "18330",
+    "METS": "8.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, synchronized"
+  },
+  {
+    "CODE": "18340",
+    "METS": "9.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, treading water, fast, vigorous effort"
+  },
+  {
+    "CODE": "18350",
+    "METS": "3.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "swimming, treading water, moderate effort, general"
+  },
+  {
+    "CODE": "18352",
+    "METS": "2.3",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "tubing, floating on a river, general"
+  },
+  {
+    "CODE": "18355",
+    "METS": "5.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water aerobics, water calisthenics"
+  },
+  {
+    "CODE": "18360",
+    "METS": "10.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water polo"
+  },
+  {
+    "CODE": "18365",
+    "METS": "3.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water volleyball"
+  },
+  {
+    "CODE": "18366",
+    "METS": "9.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water jogging"
+  },
+  {
+    "CODE": "18367",
+    "METS": "2.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water walking, light effort, slow pace"
+  },
+  {
+    "CODE": "18368",
+    "METS": "4.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water walking, moderate effort, moderate pace"
+  },
+  {
+    "CODE": "18369",
+    "METS": "6.8",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "water walking, vigorous effort, brisk pace"
+  },
+  {
+    "CODE": "18370",
+    "METS": "5.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "whitewater rafting, kayaking, or canoeing"
+  },
+  {
+    "CODE": "18380",
+    "METS": "5.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "windsurfing, not pumping for speed"
+  },
+  {
+    "CODE": "18385",
+    "METS": "11.0",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "windsurfing or kitesurfing, crossing trial"
+  },
+  {
+    "CODE": "18390",
+    "METS": "13.5",
+    "MAJOR HEADING": "water activities",
+    "SPECIFIC ACTIVITIES": "windsurfing, competition, pumping for speed"
+  },
+  {
+    "CODE": "19005",
+    "METS": "7.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "dog sledding, mushing"
+  },
+  {
+    "CODE": "19006",
+    "METS": "2.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "dog sledding, passenger"
+  },
+  {
+    "CODE": "19010",
+    "METS": "6.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "moving ice house, set up/drill holes"
+  },
+  {
+    "CODE": "19011",
+    "METS": "2.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "ice fishing, sitting"
+  },
+  {
+    "CODE": "19018",
+    "METS": "14.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "winter activities skating, ice dancing"
+  },
+  {
+    "CODE": "19020",
+    "METS": "5.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skating, ice, 9 mph or less"
+  },
+  {
+    "CODE": "19030",
+    "METS": "7.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skating, ice, general (Taylor Code 360)"
+  },
+  {
+    "CODE": "19040",
+    "METS": "9.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skating, ice, rapidly, more than 9 mph, not competitive"
+  },
+  {
+    "CODE": "19050",
+    "METS": "13.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skating, speed, competitive"
+  },
+  {
+    "CODE": "19060",
+    "METS": "7.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "ski jumping, climb up carrying skis"
+  },
+  {
+    "CODE": "19075",
+    "METS": "7.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, general"
+  },
+  {
+    "CODE": "19080",
+    "METS": "6.8",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross country, 2.5 mph, slow or light effort, ski walking"
+  },
+  {
+    "CODE": "19090",
+    "METS": "9.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross country, 4.0-4.9 mph, moderate speed and effort, general"
+  },
+  {
+    "CODE": "19100",
+    "METS": "12.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross country, 5.0-7.9 mph, brisk speed, vigorous effort"
+  },
+  {
+    "CODE": "19110",
+    "METS": "15.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross country, >8.0 mph, elite skier, racing"
+  },
+  {
+    "CODE": "19130",
+    "METS": "15.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross country, hard snow, uphill, maximum, snow mountaineering"
+  },
+  {
+    "CODE": "19135",
+    "METS": "13.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross-country, skating"
+  },
+  {
+    "CODE": "19140",
+    "METS": "13.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, cross-country, biathlon, skating technique"
+  },
+  {
+    "CODE": "19150",
+    "METS": "4.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, downhill, alpine or snowboarding, light effort, active time only"
+  },
+  {
+    "CODE": "19160",
+    "METS": "5.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, downhill, alpine or snowboarding, moderate effort, general, active time only"
+  },
+  {
+    "CODE": "19170",
+    "METS": "8.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, downhill, vigorous effort, racing"
+  },
+  {
+    "CODE": "19175",
+    "METS": "12.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "skiing, roller, elite racers"
+  },
+  {
+    "CODE": "19180",
+    "METS": "7.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "sledding, tobogganing, bobsledding, luge (Taylor Code 370)"
+  },
+  {
+    "CODE": "19190",
+    "METS": "5.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snow shoeing, moderate effort"
+  },
+  {
+    "CODE": "19192",
+    "METS": "10.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snow shoeing, vigorous effort"
+  },
+  {
+    "CODE": "19200",
+    "METS": "3.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snowmobiling, driving, moderate"
+  },
+  {
+    "CODE": "19202",
+    "METS": "2.0",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snowmobiling, passenger"
+  },
+  {
+    "CODE": "19252",
+    "METS": "5.3",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snow shoveling, by hand, moderate effort"
+  },
+  {
+    "CODE": "19254",
+    "METS": "7.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snow shoveling, by hand, vigorous effort"
+  },
+  {
+    "CODE": "19260",
+    "METS": "2.5",
+    "MAJOR HEADING": "winter activities",
+    "SPECIFIC ACTIVITIES": "snow blower, walking and pushing"
+  },
+  {
+    "CODE": "20000",
+    "METS": "1.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "sitting in church, in service, attending a ceremony, sitting quietly"
+  },
+  {
+    "CODE": "20001",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "sitting, playing an instrument at church"
+  },
+  {
+    "CODE": "20005",
+    "METS": "1.8",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "sitting in church, talking or singing, attending a ceremony, sitting, active participation"
+  },
+  {
+    "CODE": "20010",
+    "METS": "1.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "sitting, reading religious materials at home"
+  },
+  {
+    "CODE": "20015",
+    "METS": "1.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "standing quietly in church, attending a ceremony"
+  },
+  {
+    "CODE": "20020",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "standing, singing in church, attending a ceremony, standing, active participation"
+  },
+  {
+    "CODE": "20025",
+    "METS": "1.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "kneeling in church or at home, praying"
+  },
+  {
+    "CODE": "20030",
+    "METS": "1.8",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "standing, talking in church"
+  },
+  {
+    "CODE": "20035",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "walking in church"
+  },
+  {
+    "CODE": "20036",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "less than 2.0 mph, very slow"
+  },
+  {
+    "CODE": "20037",
+    "METS": "3.5",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "religious activities , 3.0 mph, moderate speed, not carrying anything"
+  },
+  {
+    "CODE": "20038",
+    "METS": "4.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "religious activities , 3.5 mph, brisk speed, not carrying anything"
+  },
+  {
+    "CODE": "20039",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "walk/stand combination for religious purposes, usher"
+  },
+  {
+    "CODE": "20040",
+    "METS": "5.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "religious activities praise with dance or run, spiritual  in church"
+  },
+  {
+    "CODE": "20045",
+    "METS": "2.5",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "serving food at church"
+  },
+  {
+    "CODE": "20046",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "preparing food at church"
+  },
+  {
+    "CODE": "20047",
+    "METS": "3.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "washing dishes, cleaning kitchen at church"
+  },
+  {
+    "CODE": "20050",
+    "METS": "1.5",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "eating at church"
+  },
+  {
+    "CODE": "20055",
+    "METS": "2.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "eating/talking at church or standing eating, American Indian Feast days"
+  },
+  {
+    "CODE": "20060",
+    "METS": "3.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "cleaning church"
+  },
+  {
+    "CODE": "20061",
+    "METS": "4.0",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "general yard work at church"
+  },
+  {
+    "CODE": "20065",
+    "METS": "3.5",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "standing, moderate effort (e.g., lifting heavy objects, assembling at fast rate)"
+  },
+  {
+    "CODE": "20095",
+    "METS": "4.5",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "Standing, moderate-to-heavy effort, manual labor, lifting \u2265 50 lbs, heavy maintenance"
+  },
+  {
+    "CODE": "20100",
+    "METS": "1.3",
+    "MAJOR HEADING": "religious activities",
+    "SPECIFIC ACTIVITIES": "typing, electric, manual, or computer"
+  },
+  {
+    "CODE": "21000",
+    "METS": "1.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "sitting, meeting, general, and/or with talking involved"
+  },
+  {
+    "CODE": "21005",
+    "METS": "1.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "sitting, light office work, in general"
+  },
+  {
+    "CODE": "21010",
+    "METS": "2.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "sitting, moderate work"
+  },
+  {
+    "CODE": "21015",
+    "METS": "2.3",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "standing, light work (filing, talking, assembling)"
+  },
+  {
+    "CODE": "21016",
+    "METS": "2.0",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "sitting, child care, only active periods"
+  },
+  {
+    "CODE": "21017",
+    "METS": "3.0",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "standing, child care, only active periods"
+  },
+  {
+    "CODE": "21018",
+    "METS": "3.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walk/run play with children, moderate, only active periods"
+  },
+  {
+    "CODE": "21019",
+    "METS": "5.8",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walk/run play with children, vigorous, only active periods"
+  },
+  {
+    "CODE": "21020",
+    "METS": "3.0",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "standing, light/moderate work (e.g., pack boxes, assemble/repair, set up chairs/furniture)"
+  },
+  {
+    "CODE": "21025",
+    "METS": "3.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "standing, moderate (lifting 50 lbs., assembling at fast rate)"
+  },
+  {
+    "CODE": "21030",
+    "METS": "4.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "standing, moderate/heavy work"
+  },
+  {
+    "CODE": "21035",
+    "METS": "1.3",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "typing, electric, manual, or computer"
+  },
+  {
+    "CODE": "21040",
+    "METS": "2.0",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking less than 2.0 mph, very slow"
+  },
+  {
+    "CODE": "21045",
+    "METS": "3.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking, 3.0 mph, moderate speed, not carrying anything"
+  },
+  {
+    "CODE": "21050",
+    "METS": "4.3",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking, 3.5 mph, brisk speed, not carrying anything"
+  },
+  {
+    "CODE": "21055",
+    "METS": "3.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking, 2.5 mph slowly and carrying objects less than 25 lbs"
+  },
+  {
+    "CODE": "21060",
+    "METS": "4.5",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking, 3.0 mph moderately and carrying objects less than 25 lbs, pushing something"
+  },
+  {
+    "CODE": "21065",
+    "METS": "4.8",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walking, 3.5 mph, briskly and carrying objects less than 25 lbs"
+  },
+  {
+    "CODE": "21070",
+    "METS": "3.0",
+    "MAJOR HEADING": "volunteer activities",
+    "SPECIFIC ACTIVITIES": "walk/stand combination, for volunteer purposes"
+  }
+]

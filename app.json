@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WalkFitness Dev",
+    "slug": "WalkFitness",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.duongaus2005.WalkFitness.dev",
+      "config": {
+        "usesNonExemptEncryption": false,
+        "entitlements": {
+          "com.apple.developer.healthkit": true
+        }
+      },
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "This app needs access to your health data to track steps and display fitness progress.",
+        "NSHealthUpdateUsageDescription": "This app uses your step count data to analyze your activity and provide fitness insights.",
+        "NSMotionUsageDescription": "This app needs access to motion data to track steps accurately."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eaba1b1a-c041-4cf4-ae16-5477f1eaa548"
+      }
+    },
+    "owner": "duongaus2005",
+    "plugins": [
+      "react-native-health"
+    ]
+  }
+}
