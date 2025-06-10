@@ -83,7 +83,6 @@ export function MainProvider({ children }) {
   }, [userDetailsObj]);
 
   
-  const [pace, setPace] = useState(0);
 
   const bmr = userDetailsObj.gender
     ? 10 * currentWeight + 6.25 * currentHeight - 5 * calculatedAge + 5
@@ -128,7 +127,6 @@ export function MainProvider({ children }) {
     setCurCalScreen,
     loading,
     setLoading,
-    
     calculatedAge,
     setCalculatedAge,
     currentHeight,
