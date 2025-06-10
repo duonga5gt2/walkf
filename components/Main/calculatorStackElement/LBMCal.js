@@ -8,13 +8,15 @@ import {
 import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";
 import { useStyles } from "../../../contexts/StyleContext";
+import { useMain } from "../../../contexts/MainContext";
 
 export default function LBMCal() {
   const { styles } = useStyles();
+  const { height, weight } = useMain()
 
   const [gender, setGender] = useState(true);
-  const [weight, setWeight] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [cur_weight, setWeight] = useState(weight);
+  const [cur_height, setHeight] = useState(height);
   const [bodyfat, setBodyfat] = useState(0);
 
   const [weightInput, setWeightInput] = useState(false);
@@ -62,11 +64,11 @@ export default function LBMCal() {
   };
 
   const calculate = () => {
-    if (weight && height) {
-      if (isValidBMI(weight, height)) {
-        const finalResult = leanBodyMass(gender, weight, height, bodyfat);
+    if (cur_weight && cur_height && cur_weight != 0 && cur_height != 0) {
+      if (isValidBMI(cur_weight, cur_height)) {
+        const finalResult = leanBodyMass(gender, cur_weight, cur_height, bodyfat);
         setResult(finalResult);
-        holdTempData({ gender, weight, height, bodyfat });
+        holdTempData({ gender, cur_weight, cur_height, bodyfat });
         setResVisibility(true);
       } else {
         Alert.alert("Please enter realistic data");
@@ -82,7 +84,7 @@ export default function LBMCal() {
   const heightList = [];
   const bodyfatList = [];
 
-  for (let j = 10; j <= 500; j++) {
+  for (let j = 50; j <= 500; j++) {
     weightList.push(`${j}`);
   }
 
@@ -202,7 +204,7 @@ export default function LBMCal() {
               padding: 10,
               borderRadius: 10,
               marginTop: 10,
-              width: 100,
+              width: 110,
               backgroundColor: weightInput ? "#bfbfbf" : "none",
             }}
             onPress={() => {
@@ -219,7 +221,7 @@ export default function LBMCal() {
                   fontWeight: "bold",
                 }}
               >
-                {weight}
+                {cur_weight}
               </Text>
             ) : (
               <Text
@@ -261,7 +263,7 @@ export default function LBMCal() {
                   fontWeight: "bold",
                 }}
               >
-                {height}
+                {cur_height}
               </Text>
             ) : (
               <Text
@@ -288,7 +290,7 @@ export default function LBMCal() {
             padding: 10,
             borderRadius: 10,
             marginTop: 10,
-            width: 110,
+            width: 120,
             backgroundColor: bodyfatInput ? "#bfbfbf" : "none",
           }}
           onPress={() => {
@@ -364,7 +366,7 @@ export default function LBMCal() {
       {!weightInput ? null : (
         <View>
           <Picker
-            selectedValue={weight}
+            selectedValue={cur_weight}
             onValueChange={(value) => setWeight(value)}
             style={styles.picker}
           >
@@ -386,7 +388,7 @@ export default function LBMCal() {
       {!heightInput ? null : (
         <View>
           <Picker
-            selectedValue={height}
+            selectedValue={cur_height}
             onValueChange={(value) => setHeight(value)}
             style={styles.picker}
           >
@@ -473,11 +475,11 @@ export default function LBMCal() {
               )}{" "}
               body with{" "}
               <Text style={{ fontSize: 20, color: "red" }}>
-                {tempData.weight}kg
+                {tempData.cur_weight}kg
               </Text>{" "}
               heavy,{" "}
               <Text style={{ fontSize: 20, color: "red" }}>
-                {tempData?.height}cm
+                {tempData?.cur_height}cm
               </Text>{" "}
               tall{" "}
               {tempData.bodyfat !== 0 ? (

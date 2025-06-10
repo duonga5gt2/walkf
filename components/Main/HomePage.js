@@ -8,6 +8,7 @@ import {
   Modal,
   TextInput,
   Alert,
+  TouchableWithoutFeedback
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useAuth } from "../../contexts/AuthContext";
@@ -27,9 +28,6 @@ export default function HomePage({ navigation }) {
     loading,
     firstName,
     lastName,
-    calories,
-    distance,
-    pace,
     calculatedAge,
     setCalculatedAge,
     currentWeight,
@@ -45,6 +43,7 @@ export default function HomePage({ navigation }) {
     getUser,
     fetchUserData,
     setTabBarStatus,
+    history, setHistory
   } = useMain();
   const { styles } = useStyles();
 
@@ -123,6 +122,9 @@ export default function HomePage({ navigation }) {
     setModalVisible(!modalVisible);
   };
 
+
+
+
   if (loading) {
     return (
       <View
@@ -177,7 +179,6 @@ export default function HomePage({ navigation }) {
           contentContainerStyle={{ flexGrow: 1, paddingBottom: 20 }}
           showsVerticalScrollIndicator={false}
         >
-          
           <View>
             <View
               style={{
@@ -360,7 +361,75 @@ export default function HomePage({ navigation }) {
               </View>
             </View>
           </View>
-          {/* <LineChartComponent progress={progress} /> */}
+
+          <View>
+            <Text
+              style={{
+                fontFamily: "Reddit Sans",
+                fontSize: 16,
+                fontWeight: "bold",
+                paddingTop: 19,
+                paddingBottom: 10,
+              }}
+            >
+              Activity History
+            </Text>
+
+            <View
+              style={{
+                padding: 5,
+                width: "100%",
+                height: 300,
+                backgroundColor: "#d3d3d3",
+                borderRadius: 10,
+              }}
+            >
+              {history.length > 0 ? (
+                <ScrollView>
+                  {history.map((item, index) => (
+                    <TouchableWithoutFeedback key={index.toString()}>
+                      <View
+                        style={{
+                          backgroundColor: "#fff",
+                          marginBottom: 5,
+                          padding: 5,
+                          borderRadius: 10,
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                        }}
+                      >
+                        <View style={{ width: "100%" }}>
+                          <Text
+                            style={{
+                              fontFamily: "Reddit Sans",
+                              fontWeight: "bold",
+                            }}
+                          >
+                            {item.testing}
+                          </Text>
+                        </View>
+                      </View>
+                    </TouchableWithoutFeedback>
+                  ))}
+                </ScrollView>
+              ) : (
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center"
+                  }}
+                >
+                  <Text style={{ fontFamily: "Reddit Sans" }}>
+                    No activities for today yet!
+                  </Text>
+                </View>
+              )}
+            </View>
+          </View>
         </ScrollView>
 
         <Modal

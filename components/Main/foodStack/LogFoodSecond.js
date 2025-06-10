@@ -91,7 +91,7 @@ export default function LogFoodSecond({ navigation, route }) {
     } finally {
       setLoading(false);
     }
-    // Delay of 500ms
+
   };
 
   const [modalVisible, setModalVisible] = useState(false);

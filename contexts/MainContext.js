@@ -35,7 +35,7 @@ export function MainProvider({ children }) {
   useEffect(() => {
     console.log(userDetailsObj);
     console.log(userDetailsObj.progressLogs);
-    console.log(userDetailsObj.age); // Log after state update
+    console.log(userDetailsObj.activityLevel); // Log after state update
   }, [userDetailsObj]);
 
   useEffect(() => {
@@ -107,11 +107,14 @@ export function MainProvider({ children }) {
 
   const [tabBarStatus, setTabBarStatus] = useState(true);
 
+  const [history, setHistory] = useState([])
+
   const value = {
     firstName: userDetailsObj?.firstName || "",
     lastName: userDetailsObj?.lastName || "",
     gender: userDetailsObj?.gender || "",
-
+    history,
+    setHistory,
     height: userDetailsObj?.height || 0,
     weight: userDetailsObj?.weight || 0,
     activityLevel: userDetailsObj?.activityLevel || "",

@@ -8,12 +8,16 @@ import {
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";
+import { useMain } from "../../../contexts/MainContext";
 
 export default function BMRCal() {
+
+  const {height, weight, age} = useMain();
+
   const [gender, setGender] = useState(true);
-  const [age, setAge] = useState(0);
-  const [weight, setWeight] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [cur_age, setAge] = useState(age);
+  const [cur_weight, setWeight] = useState(weight);
+  const [cur_height, setHeight] = useState(height);
   const [activityLevel, setActivityLevel] = useState("");
 
   const [ageInput, setAgeInput] = useState(false);
@@ -103,13 +107,13 @@ export default function BMRCal() {
   };
 
   const calculate = () => {
-    if (weight && age && height && activityLevel) {
-      if (isValidBMI(weight, height)) {
-        const bmr = Bmr(gender, weight, height, age);
-        const tdee = Tdee(gender, weight, height, age, activityLevel);
+    if (cur_weight != 0 && cur_weight && cur_age && cur_height && cur_height != 0 && activityLevel) {
+      if (isValidBMI(cur_weight, cur_height)) {
+        const bmr = Bmr(gender, cur_weight, cur_height, cur_age);
+        const tdee = Tdee(gender, cur_weight, cur_height, cur_age, activityLevel);
         setBmrResult(bmr);
         setTdeeResult(tdee);
-        holdTempData({ gender, weight, height, age, activityLevel });
+        holdTempData({ gender, cur_weight, cur_height, cur_age, activityLevel });
         setResVisibility(true);
         setAgeInput(false);
         setHeightInput(false);
@@ -250,7 +254,7 @@ export default function BMRCal() {
               setActivityInput(false);
             }}
           >
-            {age ? (
+            {cur_age ? (
               <Text
                 style={{
                   fontFamily: "Reddit Sans",
@@ -300,7 +304,7 @@ export default function BMRCal() {
               setActivityInput(false);
             }}
           >
-            {weight ? (
+            {cur_weight ? (
               <Text
                 style={{
                   fontFamily: "Reddit Sans",
@@ -350,7 +354,7 @@ export default function BMRCal() {
               setActivityInput(false);
             }}
           >
-            {height ? (
+            {cur_height ? (
               <Text
                 style={{
                   fontFamily: "Reddit Sans",
@@ -455,7 +459,7 @@ export default function BMRCal() {
 
       {!ageInput ? null : (
         <View>
-          <Picker selectedValue={age} onValueChange={(value) => setAge(value)}>
+          <Picker selectedValue={cur_age} onValueChange={(value) => setAge(value)}>
             <Picker.Item label="Select Age" value="" />
             {ageList.map((age, index) => {
               return <Picker.Item key={index} label={age} value={age} />;
@@ -467,7 +471,7 @@ export default function BMRCal() {
       {!weightInput ? null : (
         <View>
           <Picker
-            selectedValue={weight}
+            selectedValue={cur_weight}
             onValueChange={(value) => setWeight(value)}
           >
             <Picker.Item label="Select Weight" value="" />
@@ -481,7 +485,7 @@ export default function BMRCal() {
       {!heightInput ? null : (
         <View>
           <Picker
-            selectedValue={height}
+            selectedValue={cur_height}
             onValueChange={(value) => setHeight(value)}
           >
             <Picker.Item label="Select Height" value="" />
@@ -609,15 +613,15 @@ export default function BMRCal() {
                 )}{" "}
                 body at the age of{" "}
                 <Text style={{ fontSize: 20, color: "red" }}>
-                  {tempData.age}
+                  {tempData.cur_age}
                 </Text>{" "}
                 with{" "}
                 <Text style={{ fontSize: 20, color: "red" }}>
-                  {tempData.weight}kg
+                  {tempData.cur_weight}kg
                 </Text>{" "}
                 heavy,{" "}
                 <Text style={{ fontSize: 20, color: "red" }}>
-                  {tempData.height}cm
+                  {tempData.cur_height}cm
                 </Text>{" "}
                 tall, and{" "}
                 <Text style={{ fontSize: 20, color: "red" }}>
