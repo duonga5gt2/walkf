@@ -7,7 +7,6 @@ import { LogIn } from "./components/LogIn";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect, useRef } from "react";
-import { SignUp } from "./components/SignUp";
 import { WFSignUp } from "./components/WFSignUp";
 import MainPage from "./components/MainPage";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";

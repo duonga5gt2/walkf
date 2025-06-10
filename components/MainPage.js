@@ -4,7 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import HomePage from "./Main/HomePage";
 import Calculator from "./Main/Calculator";
 import LogFood from "./Main/LogFood";
-import Workout from "./Main/Workout";
+
 import { MainProvider } from "../contexts/MainContext";
 import { useMain } from "../contexts/MainContext";
 import { StyleProvider } from "../contexts/StyleContext";
@@ -68,7 +68,7 @@ function TabNavigatorContent() {
       <Tab.Screen name="Home" component={HomeStack} />
       <Tab.Screen name="Calculator" component={Calculator} />
       <Tab.Screen name="Log Food" component={LogFood} />
-      <Tab.Screen name="Workout" component={Workout} />
+      
     </Tab.Navigator>
   );
 }

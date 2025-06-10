@@ -177,76 +177,7 @@ export default function HomePage({ navigation }) {
           contentContainerStyle={{ flexGrow: 1, paddingBottom: 20 }}
           showsVerticalScrollIndicator={false}
         >
-          <View>
-            <Text
-              style={{
-                fontFamily: "Reddit Sans",
-                fontSize: 16,
-                fontWeight: "bold",
-              }}
-            >
-              Today's Performance
-            </Text>
-            <View
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "flex-end",
-                alignItems: "center",
-                gap: 6,
-                paddingTop: 10,
-                paddingBottom: 10,
-              }}
-            >
-              <TouchableOpacity
-                style={{
-                  backgroundColor: "#d9d9d9",
-                  padding: 6,
-                  borderRadius: 20,
-                }}
-              >
-                <Text style={{ fontFamily: "Reddit Sans", fontSize: 10 }}>
-                  View History
-                </Text>
-              </TouchableOpacity>
-            </View>
-            <View
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-              }}
-            >
-              <View style={[styles.rectangle, { backgroundColor: "#FF7F50" }]}>
-                <Text style={styles.rectangleTextUpper}>Calories burned</Text>
-                <Text>
-                  <Text style={{ fontSize: 32, color: "#FF0004" }}>
-                    {calories}
-                  </Text>
-                  kcal
-                </Text>
-              </View>
-              <View style={[styles.rectangle, { backgroundColor: "#4A90E2" }]}>
-                <Text style={styles.rectangleTextUpper}>Travelled</Text>
-                <Text>
-                  <Text style={{ fontSize: 32, color: "#FF0004" }}>
-                    {distance.toFixed(2)}
-                  </Text>
-                  km
-                </Text>
-              </View>
-              <View style={[styles.rectangle, { backgroundColor: "#32CD32" }]}>
-                <Text style={styles.rectangleTextUpper}>Average Pace</Text>
-                <Text>
-                  <Text style={{ fontSize: 32, color: "#FF0004" }}>
-                    {pace.toFixed(2)}
-                  </Text>
-                  m/s
-                </Text>
-              </View>
-            </View>
-          </View>
-
+          
           <View>
             <View
               style={{

@@ -82,8 +82,7 @@ export function MainProvider({ children }) {
     setCurrentHeight(userDetailsObj.height);
   }, [userDetailsObj]);
 
-  const [calories, setCalories] = useState(0);
-  const [distance, setDistance] = useState(0);
+  
   const [pace, setPace] = useState(0);
 
   const bmr = userDetailsObj.gender
@@ -129,12 +128,7 @@ export function MainProvider({ children }) {
     setCurCalScreen,
     loading,
     setLoading,
-    calories,
-    setCalories,
-    distance,
-    setDistance,
-    pace,
-    setPace,
+    
     calculatedAge,
     setCalculatedAge,
     currentHeight,
