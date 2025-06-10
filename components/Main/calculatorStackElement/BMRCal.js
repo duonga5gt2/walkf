@@ -12,10 +12,10 @@ import { useMain } from "../../../contexts/MainContext";
 
 export default function BMRCal() {
 
-  const {height, weight, age} = useMain();
+  const {height, weight, calculatedAge} = useMain();
 
   const [gender, setGender] = useState(true);
-  const [cur_age, setAge] = useState(age);
+  const [cur_age, setAge] = useState(calculatedAge);
   const [cur_weight, setWeight] = useState(weight);
   const [cur_height, setHeight] = useState(height);
   const [activityLevel, setActivityLevel] = useState("");
@@ -262,7 +262,7 @@ export default function BMRCal() {
                   fontWeight: "bold",
                 }}
               >
-                {age}
+                {cur_age}
               </Text>
             ) : (
               <Text
@@ -312,7 +312,7 @@ export default function BMRCal() {
                   fontWeight: "bold",
                 }}
               >
-                {weight}
+                {cur_weight}
               </Text>
             ) : (
               <Text
@@ -362,7 +362,7 @@ export default function BMRCal() {
                   fontWeight: "bold",
                 }}
               >
-                {height}
+                {cur_height}
               </Text>
             ) : (
               <Text
