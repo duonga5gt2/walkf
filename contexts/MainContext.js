@@ -83,7 +83,6 @@ export function MainProvider({ children }) {
   }, [userDetailsObj]);
 
   
-
   const bmr = userDetailsObj.gender
     ? 10 * currentWeight + 6.25 * currentHeight - 5 * calculatedAge + 5
     : 10 * currentWeight + 6.25 * currentHeight - 5 * calculatedAge - 161;

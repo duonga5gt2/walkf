@@ -88,7 +88,7 @@ function LBM({ name }) {
   return (
     <View style={{ padding: 24 }}>
       {curCalScreen === "Instruction" ? (
-        <ScrollView
+        <View
           contentContainerStyle={{
             flexGrow: 1,
             justifyContent: "space-between",
@@ -96,10 +96,10 @@ function LBM({ name }) {
           }}
         >
           <Text
-            style={{ fontSize: 15, fontFamily: "Reddit Sans", lineHeight: 30 }}
+            style={{ fontSize: 15, fontFamily: "Reddit Sans", lineHeight: 20 }}
           >
             The <Text style={{ fontWeight: "bold" }}>Lean Body Mass (LBM)</Text>{" "}
-            Calculator is a tool designed to estimate the amount of fat-free
+            Calculator estimates the amount of fat-free
             mass in your body, including muscles, bones, organs, and water. LBM
             is a key indicator of overall fitness, as it represents all the
             tissues in your body except fat. This calculator helps you track
@@ -112,7 +112,7 @@ function LBM({ name }) {
               fontSize: 15,
               fontFamily: "Reddit Sans",
               marginTop: 12,
-              lineHeight: 30,
+              lineHeight: 20,
             }}
           >
             <Text style={{ fontWeight: "bold" }}>Disclaimer: </Text>The method
@@ -156,7 +156,7 @@ function LBM({ name }) {
               </Text>
             </TouchableOpacity>
           </View>
-        </ScrollView>
+        </View>
       ) : (
         <View>
           <LBMCal />
@@ -176,7 +176,7 @@ function BMR({ name }) {
             style={{
               fontSize: 15,
               fontFamily: "Reddit Sans",
-              lineHeight: 30,
+              lineHeight: 20,
             }}
           >
             The{" "}
@@ -199,7 +199,7 @@ function BMR({ name }) {
             style={{
               fontSize: 15,
               fontFamily: "Reddit Sans",
-              lineHeight: 30,
+              lineHeight: 20,
               paddingTop: 20,
             }}
           >

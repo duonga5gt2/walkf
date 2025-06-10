@@ -53,16 +53,12 @@ export default function CalculatorFront({ navigation, route }) {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <ScrollView style={[styles.viewAfterSafeArea, { flex: 1 }]}>
-        <View style={styles.topLogoNotHomePage}>
-          <View></View>
-          <Image
-            style={styles.topLogo}
-            source={require("../../../assets/1-removebg-preview.png")}
-          />
-          <View></View>
+      <View style={[styles.viewAfterSafeArea, { flex: 1 }]}>
+        
+        <View style={{paddingTop: 30}}>
+          <Text style={styles.title}>Calculator</Text>
         </View>
-        <Text style={styles.title}>Calculator</Text>
+       
         <View style={[{ paddingTop: 33 }, styles.boxContainer]}>
           {boxItem.map((box) => {
             return (
@@ -77,7 +73,7 @@ export default function CalculatorFront({ navigation, route }) {
             );
           })}
         </View>
-      </ScrollView>
+      </View>
     </SafeAreaView>
   );
 }
