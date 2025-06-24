@@ -8,9 +8,12 @@ import {
   TouchableWithoutFeedback,
   FlatList,
 } from "react-native";
+import { useMain } from "../../../contexts/MainContext";
 
 export default function CaloriesBurnedCal() {
-  const [weight, setWeight] = useState("");
+  const {weight} = useMain()
+
+  const [cur_weight, setWeight] = useState(weight.toString());
   const [time, setTime] = useState("");
   const [activity, setActivity] = useState("");
   const [description, setDescription] = useState("");
@@ -125,8 +128,8 @@ export default function CaloriesBurnedCal() {
   };
 
   const calculate = () => {
-    if (weight && time && met) {
-      const w = parseInt(weight) || 0;
+    if (cur_weight && time && met) {
+      const w = parseInt(cur_weight) || 0;
       const t = parseInt(time) || 0;
       if (w !== 0 && t !== 0) {
         const result = calculateCalories(met, w, t);
@@ -163,7 +166,7 @@ export default function CaloriesBurnedCal() {
             <TextInput
               placeholder="Weight"
               keyboardType="numeric"
-              value={weight}
+              value={cur_weight}
               onChangeText={(value) => {
                 if (/^\d{0,3}$/.test(value)) {
                   setWeight(value);

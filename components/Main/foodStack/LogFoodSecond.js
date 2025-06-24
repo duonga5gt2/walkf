@@ -17,11 +17,12 @@ import { useState, useRef } from "react";
 import { useStyles } from "../../../contexts/StyleContext";
 import { useMain } from "../../../contexts/MainContext";
 import Icon from "react-native-vector-icons/Ionicons";
+import { formFoodLogHistory } from "../../persistence/historyDataForm";
 
 export default function LogFoodSecond({ navigation, route }) {
   const { styles } = useStyles();
-  const { setTabBarStatus } = useMain();
-  const { meal, setMeal } = route.params;
+  const { setTabBarStatus, setHistory } = useMain();
+  const { meal, setMeal, name } = route.params;
 
   const [foodList, setFoodList] = useState(meal);
   const [searchText, setSearchText] = useState("");
@@ -453,6 +454,8 @@ export default function LogFoodSecond({ navigation, route }) {
                           updatedFood,
                         ]);
 
+                        const historyForm = formFoodLogHistory(name, "Log " + name, updatedFood)
+                        setHistory((currentState) => { return [...currentState, historyForm]})
                         // Reset modal data and inputs
                         setModalData({});
                         setServing("");

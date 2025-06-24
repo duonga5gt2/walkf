@@ -242,6 +242,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: breakfast,
                         setMeal: setBreakfast,
+                        name: "Breakfast"
                       });
                       setTabBarStatus(false);
                     }}
@@ -332,6 +333,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: lunch,
                         setMeal: setLunch,
+                        name: "Lunch"
                       });
                       setTabBarStatus(false);
                     }}
@@ -422,6 +424,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: dinner,
                         setMeal: setDinner,
+                        name: "Dinner"
                       });
                       setTabBarStatus(false);
                     }}

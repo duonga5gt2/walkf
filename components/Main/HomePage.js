@@ -407,7 +407,12 @@ export default function HomePage({ navigation }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {item.testing}
+                            {item.title} <Ionicons name={item.logo} size={15} color={"black"}/> {"\n"}
+                            <Text style={{fontWeight: 'regular'}}>
+                              {item.food.title},{" "}
+                              {item.food.size}kcal,{" "}
+                              {item.food.protein}g
+                            </Text>
                           </Text>
                         </View>
                       </View>
