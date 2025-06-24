@@ -10,6 +10,7 @@ import {
   Alert,
 } from "react-native";
 import { useMain } from "../../../contexts/MainContext";
+import { formDataCalculation } from "../../persistence/historyDataForm";
 
 export default function TEFCal({ navigation, largerNavigation }) {
   const [protein, setProtein] = useState("");
@@ -20,7 +21,7 @@ export default function TEFCal({ navigation, largerNavigation }) {
 
   const [resVisibility, setResVisibility] = useState(false);
 
-  const { setTabBarStatus } = useMain();
+  const { setTabBarStatus, setHistory } = useMain();
 
   const [tempData, holdTempData] = useState({});
 
@@ -39,6 +40,14 @@ export default function TEFCal({ navigation, largerNavigation }) {
 
       const totalTEF = tefProtein + tefCarb + tefFat;
       setResult(totalTEF);
+      const dataForm = formDataCalculation(
+        "Calculation",
+        `TEF: ${totalTEF}`,
+        `${p}g of protein, ${c}g of carb, ${f}g of fat`
+      );
+      setHistory((currentState) => {
+        return [...currentState, dataForm];
+      });
       holdTempData({ p, c, f });
       setResVisibility(true);
       setProtein("");
@@ -249,7 +258,7 @@ export default function TEFCal({ navigation, largerNavigation }) {
                   fontWeight: "bold",
                 }}
               >
-                {result}kcal
+                {result.toFixed(2)}kcal
               </Text>
               <Text style={{ paddingTop: 15, fontFamily: "Reddit Sans" }}>
                 is burned to digest{" "}

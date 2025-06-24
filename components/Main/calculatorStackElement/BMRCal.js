@@ -9,10 +9,10 @@ import {
 import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";
 import { useMain } from "../../../contexts/MainContext";
+import { formDataCalculation } from "../../persistence/historyDataForm";
 
 export default function BMRCal() {
-
-  const {height, weight, calculatedAge} = useMain();
+  const { height, weight, calculatedAge, setHistory } = useMain();
 
   const [gender, setGender] = useState(true);
   const [cur_age, setAge] = useState(calculatedAge);
@@ -107,13 +107,44 @@ export default function BMRCal() {
   };
 
   const calculate = () => {
-    if (cur_weight != 0 && cur_weight && cur_age && cur_height && cur_height != 0 && activityLevel) {
+    if (
+      cur_weight != 0 &&
+      cur_weight &&
+      cur_age &&
+      cur_height &&
+      cur_height != 0 &&
+      activityLevel
+    ) {
       if (isValidBMI(cur_weight, cur_height)) {
         const bmr = Bmr(gender, cur_weight, cur_height, cur_age);
-        const tdee = Tdee(gender, cur_weight, cur_height, cur_age, activityLevel);
+        const tdee = Tdee(
+          gender,
+          cur_weight,
+          cur_height,
+          cur_age,
+          activityLevel
+        );
         setBmrResult(bmr);
         setTdeeResult(tdee);
-        holdTempData({ gender, cur_weight, cur_height, cur_age, activityLevel });
+        const dataForm = formDataCalculation(
+          "Calculation",
+          `BMR: ${bmr}, TDEE: ${tdee}`,
+          `for a ${
+            gender ? "male" : "female"
+          } body at the age of ${cur_age} with ${cur_weight}kg heavy, ${cur_height}cm tall, and ${activityLevel} activity level`
+        );
+
+        setHistory((currentState) => {
+          return [...currentState, dataForm];
+        });
+
+        holdTempData({
+          gender,
+          cur_weight,
+          cur_height,
+          cur_age,
+          activityLevel,
+        });
         setResVisibility(true);
         setAgeInput(false);
         setHeightInput(false);
@@ -459,7 +490,10 @@ export default function BMRCal() {
 
       {!ageInput ? null : (
         <View>
-          <Picker selectedValue={cur_age} onValueChange={(value) => setAge(value)}>
+          <Picker
+            selectedValue={cur_age}
+            onValueChange={(value) => setAge(value)}
+          >
             <Picker.Item label="Select Age" value="" />
             {ageList.map((age, index) => {
               return <Picker.Item key={index} label={age} value={age} />;

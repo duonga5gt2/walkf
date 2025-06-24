@@ -57,40 +57,7 @@ export default function LogFoodFront({ navigation, route }) {
 
     setIntake(result);
     setTef(tef);
-
-    if (breakfast.length > 0) {
-      storeData(`breakfast${currentUser.uid}`, breakfast, currentUser.uid);
-    }
-    if (lunch.length > 0) {
-      storeData(`lunch${currentUser.uid}`, lunch, currentUser.uid);
-    }
-    if (dinner.length > 0) {
-      storeData(`dinner${currentUser.uid}`, dinner, currentUser.uid);
-    }
   }, [breakfast, lunch, dinner]);
-
-  useEffect(() => {
-    const loadMeals = async () => {
-      const storedBreakfast = await getData(
-        `breakfast${currentUser.uid}`,
-        currentUser.uid
-      );
-      const storedLunch = await getData(
-        `lunch${currentUser.uid}`,
-        currentUser.uid
-      );
-      const storedDinner = await getData(
-        `dinner${currentUser.uid}`,
-        currentUser.uid
-      );
-
-      setBreakfast(storedBreakfast || []); // Default to empty array if no data
-      setLunch(storedLunch || []);
-      setDinner(storedDinner || []);
-    };
-
-    loadMeals();
-  }, []);
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
@@ -242,7 +209,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: breakfast,
                         setMeal: setBreakfast,
-                        name: "Breakfast"
+                        name: "Breakfast",
                       });
                       setTabBarStatus(false);
                     }}
@@ -333,7 +300,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: lunch,
                         setMeal: setLunch,
-                        name: "Lunch"
+                        name: "Lunch",
                       });
                       setTabBarStatus(false);
                     }}
@@ -424,7 +391,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: dinner,
                         setMeal: setDinner,
-                        name: "Dinner"
+                        name: "Dinner",
                       });
                       setTabBarStatus(false);
                     }}

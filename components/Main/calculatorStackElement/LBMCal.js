@@ -9,10 +9,11 @@ import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";
 import { useStyles } from "../../../contexts/StyleContext";
 import { useMain } from "../../../contexts/MainContext";
+import { formDataCalculation } from "../../persistence/historyDataForm";
 
 export default function LBMCal() {
   const { styles } = useStyles();
-  const { height, weight } = useMain()
+  const { height, weight, setHistory } = useMain();
 
   const [gender, setGender] = useState(true);
   const [cur_weight, setWeight] = useState(weight);
@@ -52,7 +53,11 @@ export default function LBMCal() {
   const leanBodyMass = (gender, weight, height, bodyfat) => {
     if (gender) {
       if (bodyfat) {
-        return weight * (1 - bodyfat * 0.01);
+        if (isValidBDFRange(gender, bodyfat)) {
+          return weight * (1 - bodyfat * 0.01);
+        } else {
+          return 0;
+        }
       }
       return 0.47 * weight + 0.267 * height - 19.2;
     } else {
@@ -66,10 +71,31 @@ export default function LBMCal() {
   const calculate = () => {
     if (cur_weight && cur_height && cur_weight != 0 && cur_height != 0) {
       if (isValidBMI(cur_weight, cur_height)) {
-        const finalResult = leanBodyMass(gender, cur_weight, cur_height, bodyfat);
-        setResult(finalResult);
-        holdTempData({ gender, cur_weight, cur_height, bodyfat });
-        setResVisibility(true);
+        const finalResult = leanBodyMass(
+          gender,
+          cur_weight,
+          cur_height,
+          bodyfat
+        );
+        console.log(finalResult);
+        if (finalResult != 0) {
+          setResult(finalResult);
+          console.log(result);
+          holdTempData({ gender, cur_weight, cur_height, bodyfat });
+          setResVisibility(true);
+          const dataForm = formDataCalculation(
+            "Calculation",
+            "LBM: " + finalResult.toFixed(2),
+            `for a ${
+              gender ? "male" : "female"
+            } body with ${cur_weight}kg heavy, ${cur_height}cm tall ${
+              bodyfat != 0 ? `, ${bodyfat}% body fat` : ""
+            }`
+          );
+          setHistory((currentState) => {
+            return [...currentState, dataForm];
+          });
+        }
       } else {
         Alert.alert("Please enter realistic data");
       }

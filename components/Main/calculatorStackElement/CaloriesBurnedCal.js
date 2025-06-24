@@ -9,9 +9,10 @@ import {
   FlatList,
 } from "react-native";
 import { useMain } from "../../../contexts/MainContext";
+import { formDataCalculation } from "../../persistence/historyDataForm";
 
 export default function CaloriesBurnedCal() {
-  const {weight} = useMain()
+  const { weight, setHistory } = useMain();
 
   const [cur_weight, setWeight] = useState(weight.toString());
   const [time, setTime] = useState("");
@@ -135,6 +136,19 @@ export default function CaloriesBurnedCal() {
         const result = calculateCalories(met, w, t);
         setResult(result);
         setResVisibility(true);
+        const dataForm = formDataCalculation(
+          "Calculation",
+          `Calories Burned: ${result}`,
+          `${time}, ${activity}, ${description}`
+        );
+
+        setHistory((currentState) => {
+          return [...currentState, dataForm];
+        });
+
+        setActivity("");
+        setTime("");
+        setDescription("");
       } else {
         Alert.alert("Unexpected Error");
       }

@@ -8,7 +8,7 @@ import {
   Modal,
   TextInput,
   Alert,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useAuth } from "../../contexts/AuthContext";
@@ -43,7 +43,8 @@ export default function HomePage({ navigation }) {
     getUser,
     fetchUserData,
     setTabBarStatus,
-    history, setHistory
+    history,
+    setHistory,
   } = useMain();
   const { styles } = useStyles();
 
@@ -121,9 +122,6 @@ export default function HomePage({ navigation }) {
   const toggleModal = () => {
     setModalVisible(!modalVisible);
   };
-
-
-
 
   if (loading) {
     return (
@@ -372,7 +370,7 @@ export default function HomePage({ navigation }) {
                 paddingBottom: 10,
               }}
             >
-              Activity History
+              Today's Activity History
             </Text>
 
             <View
@@ -407,12 +405,23 @@ export default function HomePage({ navigation }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {item.title} <Ionicons name={item.logo} size={15} color={"black"}/> {"\n"}
-                            <Text style={{fontWeight: 'regular'}}>
-                              {item.food.title},{" "}
-                              {item.food.size}kcal,{" "}
-                              {item.food.protein}g
-                            </Text>
+                            {item.title}{" "}
+                            <Ionicons
+                              name={item.logo}
+                              size={15}
+                              color={"black"}
+                            />{" "}
+                            {"\n"}
+                            {item.name ? (
+                              <Text style={{ fontWeight: "regular" }}>
+                                {item.food.title}, {item.food.size}kcal,{" "}
+                                {item.food.protein}g
+                              </Text>
+                            ) : (
+                              <Text style={{ fontWeight: "regular" }}>
+                                {item.title}, {item.values}, {item.results}
+                              </Text>
+                            )}
                           </Text>
                         </View>
                       </View>
@@ -425,7 +434,7 @@ export default function HomePage({ navigation }) {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
-                    alignItems: "center"
+                    alignItems: "center",
                   }}
                 >
                   <Text style={{ fontFamily: "Reddit Sans" }}>

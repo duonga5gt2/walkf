@@ -23,7 +23,7 @@ export default function SDResult({ navigation, route }) {
     height,
   } = route.params;
   const { styles } = useStyles();
-  const { setTabBarStatus } = useMain();
+  const { setTabBarStatus, setHistory } = useMain();
 
   const [caloriesBurned, setCaloriesBurned] = useState(0);
   const [caloriesIntake, setCaloriesIntake] = useState(0);
