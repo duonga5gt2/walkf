@@ -165,6 +165,7 @@ export const deleteUserFoodHistoryItem = async (
 };
 
 export const fetchUserFoodHistory = async (uid) => {
+  console.log("fetching...");
   try {
     const userQuery = query(
       collection(db, "userDetails"),

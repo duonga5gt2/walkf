@@ -18,11 +18,16 @@ import { useStyles } from "../../../contexts/StyleContext";
 import { useMain } from "../../../contexts/MainContext";
 import Icon from "react-native-vector-icons/Ionicons";
 import { formFoodLogHistory } from "../../persistence/historyDataForm";
-
+import {
+  updateUserFoodHistory,
+  deleteUserFoodHistoryItem,
+} from "../../persistence/persistence";
+import { useAuth } from "../../../contexts/AuthContext";
 export default function LogFoodSecond({ navigation, route }) {
   const { styles } = useStyles();
   const { setTabBarStatus, setHistory } = useMain();
   const { meal, setMeal, name } = route.params;
+  const { currentUser } = useAuth();
 
   const [foodList, setFoodList] = useState(meal);
   const [searchText, setSearchText] = useState("");
@@ -107,13 +112,19 @@ export default function LogFoodSecond({ navigation, route }) {
 
   const [modalData, setModalData] = useState({});
 
-  const removeItem = (timeToRemove) => {
+  const removeItem = async (timeToRemove) => {
     setFoodList((prevItems) =>
       prevItems.filter((item) => item.time !== timeToRemove)
     );
     setMeal((prevItems) =>
       prevItems.filter((item) => item.time !== timeToRemove)
     );
+
+    await deleteUserFoodHistoryItem(currentUser.uid, name, timeToRemove);
+  };
+
+  const addFood = async (foodLog) => {
+    await updateUserFoodHistory(currentUser.uid, name, foodLog);
   };
 
   return (
@@ -317,11 +328,11 @@ export default function LogFoodSecond({ navigation, route }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {food.title}
+                            {food.food.title}
                           </Text>
                           <Text>
-                            Calories: {food.size.toFixed(2)}kcal, Protein:{" "}
-                            {food.protein.toFixed(2)}g
+                            Calories: {food.food.size.toFixed(2)}kcal, Protein:{" "}
+                            {food.food.protein.toFixed(2)}g
                           </Text>
                         </View>
                         <TouchableOpacity onPress={() => removeItem(food.time)}>
@@ -446,13 +457,15 @@ export default function LogFoodSecond({ navigation, route }) {
                         };
 
                         // Add the updated food to the list
+                        const wrappedFood = { food: updatedFood, time: now };
+
                         setMeal((currentState) => [
                           ...currentState,
-                          { ...updatedFood, time: now },
+                          wrappedFood,
                         ]);
                         setFoodList((currentState) => [
                           ...currentState,
-                          { ...updatedFood, time: now },
+                          wrappedFood,
                         ]);
 
                         const historyForm = formFoodLogHistory(
@@ -461,6 +474,8 @@ export default function LogFoodSecond({ navigation, route }) {
                           "Log " + name,
                           updatedFood
                         );
+
+                        addFood(historyForm);
 
                         // Reset modal data and inputs
                         setModalData({});

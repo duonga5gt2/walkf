@@ -11,17 +11,38 @@ import { useStyles } from "../../../contexts/StyleContext";
 import { useMain } from "../../../contexts/MainContext";
 import { storeData, getData } from "../../persistence/localStorage";
 import { useAuth } from "../../../contexts/AuthContext";
+import { fetchUserFoodHistory } from "../../persistence/persistence";
 export default function LogFoodFront({ navigation, route }) {
   const { styles } = useStyles();
   const { bmr, tdee, setTabBarStatus } = useMain();
   const { currentUser } = useAuth();
   const [intake, setIntake] = useState(0);
 
+  const [mealData, setMealData] = useState(null);
   const [breakfast, setBreakfast] = useState([]);
   const [lunch, setLunch] = useState([]);
   const [dinner, setDinner] = useState([]);
 
   const [tef, setTef] = useState(0);
+
+  useEffect(() => {
+    const fetchUserMeal = async () => {
+      const data = await fetchUserFoodHistory(currentUser.uid);
+      setMealData(data);
+    };
+
+    fetchUserMeal();
+  }, []);
+
+  useEffect(() => {
+    if (!mealData) return; // ✅ skip if still loading
+    console.log(mealData.breakfast);
+    console.log(mealData.lunch);
+    console.log(mealData.dinner);
+    setBreakfast(mealData.breakfast || []);
+    setLunch(mealData.lunch || []);
+    setDinner(mealData.dinner || []);
+  }, [mealData]);
 
   useEffect(() => {
     let breakfastIntake = 0;
@@ -34,22 +55,22 @@ export default function LogFoodFront({ navigation, route }) {
 
     for (const i of breakfast) {
       if (breakfast.length > 0) {
-        breakfastIntake += i.size;
-        tef += tefProtein(i.protein);
+        breakfastIntake += i.food.size;
+        tef += tefProtein(i.food.protein);
       }
     }
 
     for (const j of lunch) {
       if (lunch.length > 0) {
-        lunchIntake += j.size;
-        tef += tefProtein(j.protein);
+        lunchIntake += j.food.size;
+        tef += tefProtein(j.food.protein);
       }
     }
 
     for (const k of dinner) {
       if (dinner.length > 0) {
-        dinnerIntake += k.size;
-        tef += tefProtein(k.protein);
+        dinnerIntake += k.food.size;
+        tef += tefProtein(k.food.protein);
       }
     }
 
@@ -209,7 +230,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: breakfast,
                         setMeal: setBreakfast,
-                        name: "Breakfast",
+                        name: "breakfast",
                       });
                       setTabBarStatus(false);
                     }}
@@ -252,11 +273,11 @@ export default function LogFoodFront({ navigation, route }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {food.title}
+                            {food.food.title}
                           </Text>
                           <Text style={{ fontFamily: "Reddit Sans" }}>
-                            Calories: {food.size.toFixed(2)}kcal, Protein:{" "}
-                            {food.protein.toFixed(2)}g
+                            Calories: {food.food.size.toFixed(2)}kcal, Protein:{" "}
+                            {food.food.protein.toFixed(2)}g
                           </Text>
                         </View>
                       );
@@ -300,7 +321,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: lunch,
                         setMeal: setLunch,
-                        name: "Lunch",
+                        name: "lunch",
                       });
                       setTabBarStatus(false);
                     }}
@@ -343,11 +364,11 @@ export default function LogFoodFront({ navigation, route }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {food.title}
+                            {food.food.title}
                           </Text>
                           <Text style={{ fontFamily: "Reddit Sans" }}>
-                            Calories: {food.size.toFixed(2)}kcal, Protein:{" "}
-                            {food.protein.toFixed(2)}g
+                            Calories: {food.food.size.toFixed(2)}kcal, Protein:{" "}
+                            {food.food.protein.toFixed(2)}g
                           </Text>
                         </View>
                       );
@@ -391,7 +412,7 @@ export default function LogFoodFront({ navigation, route }) {
                       navigation.navigate("Second", {
                         meal: dinner,
                         setMeal: setDinner,
-                        name: "Dinner",
+                        name: "dinner",
                       });
                       setTabBarStatus(false);
                     }}
@@ -434,11 +455,11 @@ export default function LogFoodFront({ navigation, route }) {
                               fontWeight: "bold",
                             }}
                           >
-                            {food.title}
+                            {food.food.title}
                           </Text>
                           <Text style={{ fontFamily: "Reddit Sans" }}>
-                            Calories: {food.size.toFixed(2)}kcal, Protein:{" "}
-                            {food.protein.toFixed(2)}g
+                            Calories: {food.food.size.toFixed(2)}kcal, Protein:{" "}
+                            {food.food.protein.toFixed(2)}g
                           </Text>
                         </View>
                       );
