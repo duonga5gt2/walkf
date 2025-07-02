@@ -136,15 +136,6 @@ export default function CaloriesBurnedCal() {
         const result = calculateCalories(met, w, t);
         setResult(result);
         setResVisibility(true);
-        const dataForm = formDataCalculation(
-          "Calculation",
-          `Calories Burned: ${result}`,
-          `${time} minutes, ${activity}, ${description}`
-        );
-
-        setHistory((currentState) => {
-          return [...currentState, dataForm];
-        });
 
         setActivity("");
         setTime("");

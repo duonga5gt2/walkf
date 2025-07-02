@@ -461,9 +461,6 @@ export default function LogFoodSecond({ navigation, route }) {
                           "Log " + name,
                           updatedFood
                         );
-                        setHistory((currentState) => {
-                          return [...currentState, historyForm];
-                        });
 
                         // Reset modal data and inputs
                         setModalData({});

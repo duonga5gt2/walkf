@@ -126,17 +126,6 @@ export default function BMRCal() {
         );
         setBmrResult(bmr);
         setTdeeResult(tdee);
-        const dataForm = formDataCalculation(
-          "Calculation",
-          `BMR: ${bmr}, TDEE: ${tdee}`,
-          `for a ${
-            gender ? "male" : "female"
-          } body at the age of ${cur_age} with ${cur_weight}kg heavy, ${cur_height}cm tall, and ${activityLevel} activity level`
-        );
-
-        setHistory((currentState) => {
-          return [...currentState, dataForm];
-        });
 
         holdTempData({
           gender,

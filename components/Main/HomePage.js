@@ -371,7 +371,7 @@ export default function HomePage({ navigation }) {
                 paddingBottom: 10,
               }}
             >
-              Today's Activity History
+              Deficit/Surplus History
             </Text>
 
             <View
@@ -405,25 +405,7 @@ export default function HomePage({ navigation }) {
                               fontFamily: "Reddit Sans",
                               fontWeight: "bold",
                             }}
-                          >
-                            {item.title}{" "}
-                            <Ionicons
-                              name={item.logo}
-                              size={15}
-                              color={"black"}
-                            />{" "}
-                            {"\n"}
-                            {item.name ? (
-                              <Text style={{ fontWeight: "regular" }}>
-                                {item.food.title}, {item.food.size}kcal,{" "}
-                                {item.food.protein}g
-                              </Text>
-                            ) : (
-                              <Text style={{ fontWeight: "regular" }}>
-                                {item.title}, {item.values}, {item.results}
-                              </Text>
-                            )}
-                          </Text>
+                          ></Text>
                         </View>
                       </View>
                     </TouchableWithoutFeedback>
@@ -439,7 +421,7 @@ export default function HomePage({ navigation }) {
                   }}
                 >
                   <Text style={{ fontFamily: "Reddit Sans" }}>
-                    No activities for today yet!
+                    No history found
                   </Text>
                 </View>
               )}

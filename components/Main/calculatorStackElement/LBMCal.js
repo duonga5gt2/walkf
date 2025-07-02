@@ -83,18 +83,6 @@ export default function LBMCal() {
           console.log(result);
           holdTempData({ gender, cur_weight, cur_height, bodyfat });
           setResVisibility(true);
-          const dataForm = formDataCalculation(
-            "Calculation",
-            "LBM: " + finalResult.toFixed(2),
-            `for a ${
-              gender ? "male" : "female"
-            } body with ${cur_weight}kg heavy, ${cur_height}cm tall ${
-              bodyfat != 0 ? `, ${bodyfat}% body fat` : ""
-            }`
-          );
-          setHistory((currentState) => {
-            return [...currentState, dataForm];
-          });
         }
       } else {
         Alert.alert("Please enter realistic data");

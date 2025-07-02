@@ -40,14 +40,7 @@ export default function TEFCal({ navigation, largerNavigation }) {
 
       const totalTEF = tefProtein + tefCarb + tefFat;
       setResult(totalTEF);
-      const dataForm = formDataCalculation(
-        "Calculation",
-        `TEF: ${totalTEF}`,
-        `${p}g of protein, ${c}g of carb, ${f}g of fat`
-      );
-      setHistory((currentState) => {
-        return [...currentState, dataForm];
-      });
+
       holdTempData({ p, c, f });
       setResVisibility(true);
       setProtein("");
