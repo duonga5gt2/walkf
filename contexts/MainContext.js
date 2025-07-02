@@ -34,7 +34,6 @@ export function MainProvider({ children }) {
 
   useEffect(() => {
     console.log(userDetailsObj);
-    console.log(userDetailsObj.progressLogs);
     console.log(userDetailsObj.activityLevel); // Log after state update
   }, [userDetailsObj]);
 
@@ -82,7 +81,6 @@ export function MainProvider({ children }) {
     setCurrentHeight(userDetailsObj.height);
   }, [userDetailsObj]);
 
-  
   const bmr = userDetailsObj.gender
     ? 10 * currentWeight + 6.25 * currentHeight - 5 * calculatedAge + 5
     : 10 * currentWeight + 6.25 * currentHeight - 5 * calculatedAge - 161;
@@ -107,7 +105,7 @@ export function MainProvider({ children }) {
 
   const [tabBarStatus, setTabBarStatus] = useState(true);
 
-  const [history, setHistory] = useState([])
+  const [history, setHistory] = useState([]);
 
   const value = {
     firstName: userDetailsObj?.firstName || "",

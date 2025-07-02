@@ -73,34 +73,6 @@ export const addUser = async (
 // Helper function to format date as 'dd/mm'
 
 export const getUser = async (uid) => {
-  const getUserChartData = async (userDocId) => {
-    try {
-      // Reference to the progressChart document
-      const chartDocRef = doc(
-        db,
-        "userDetails",
-        userDocId,
-        "progress",
-        "progressChart"
-      );
-
-      const chartDoc = await getDoc(chartDocRef);
-
-      if (chartDoc.exists()) {
-        const chartData = chartDoc.data().chartData;
-
-        return chartData;
-      } else {
-        console.log("No chart data found.");
-        return null;
-      }
-    } catch (error) {
-      console.error("Error fetching chart data:", error.message);
-
-      throw error;
-    }
-  };
-
   try {
     // Query to fetch user by UID
     const q = query(collection(db, "userDetails"), where("uid", "==", uid));
@@ -116,11 +88,8 @@ export const getUser = async (uid) => {
     const userDoc = querySnapshot.docs[0];
     const userData = { id: userDoc.id, ...userDoc.data() };
 
-    // Fetch progress chart data
-    const progressLogs = await getUserChartData(userDoc.id);
-
     // Return user data combined with progress logs
-    return { ...userData, progressLogs };
+    return userData;
   } catch (e) {
     console.error("Error fetching filtered data:", e.message);
     console.log(e);

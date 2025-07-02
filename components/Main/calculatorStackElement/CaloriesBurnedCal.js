@@ -139,7 +139,7 @@ export default function CaloriesBurnedCal() {
         const dataForm = formDataCalculation(
           "Calculation",
           `Calories Burned: ${result}`,
-          `${time}, ${activity}, ${description}`
+          `${time} minutes, ${activity}, ${description}`
         );
 
         setHistory((currentState) => {
