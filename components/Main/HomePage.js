@@ -89,7 +89,6 @@ export default function HomePage({ navigation }) {
       setLoading(true);
       await updateUserData("weight", w);
       toggleModal();
-      await updateChartData(currentUser.uid, w);
       await fetchUserData();
     } catch (e) {
       console.log(e);
