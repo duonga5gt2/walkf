@@ -92,7 +92,6 @@ export default function LogFoodSecond({ navigation, route }) {
     } finally {
       setLoading(false);
     }
-
   };
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -108,14 +107,15 @@ export default function LogFoodSecond({ navigation, route }) {
 
   const [modalData, setModalData] = useState({});
 
-  const removeItem = (itemIndexToRemove) => {
+  const removeItem = (timeToRemove) => {
     setFoodList((prevItems) =>
-      prevItems.filter((_, index) => index !== itemIndexToRemove)
+      prevItems.filter((item) => item.time !== timeToRemove)
     );
     setMeal((prevItems) =>
-      prevItems.filter((_, index) => index !== itemIndexToRemove)
+      prevItems.filter((item) => item.time !== timeToRemove)
     );
   };
+
   return (
     <TouchableWithoutFeedback
       onPress={() => {
@@ -297,7 +297,7 @@ export default function LogFoodSecond({ navigation, route }) {
               <ScrollView>
                 {foodList.map((food, index) => {
                   return (
-                    <TouchableWithoutFeedback key={index}>
+                    <TouchableWithoutFeedback key={food.time}>
                       <View
                         style={{
                           display: "flex",
@@ -324,7 +324,7 @@ export default function LogFoodSecond({ navigation, route }) {
                             {food.protein.toFixed(2)}g
                           </Text>
                         </View>
-                        <TouchableOpacity onPress={() => removeItem(index)}>
+                        <TouchableOpacity onPress={() => removeItem(food.time)}>
                           <Icon name="trash" size={24} color="#000000" />
                         </TouchableOpacity>
                       </View>
@@ -438,6 +438,7 @@ export default function LogFoodSecond({ navigation, route }) {
                     if (serving) {
                       const s = parseInt(serving) || 0;
                       if (s !== 0) {
+                        const now = Date.now();
                         const updatedFood = {
                           title: modalData.title,
                           size: modalData.calories * (s / 100),
@@ -447,15 +448,23 @@ export default function LogFoodSecond({ navigation, route }) {
                         // Add the updated food to the list
                         setMeal((currentState) => [
                           ...currentState,
-                          updatedFood,
+                          { ...updatedFood, time: now },
                         ]);
                         setFoodList((currentState) => [
                           ...currentState,
-                          updatedFood,
+                          { ...updatedFood, time: now },
                         ]);
 
-                        const historyForm = formFoodLogHistory(name, "Log " + name, updatedFood)
-                        setHistory((currentState) => { return [...currentState, historyForm]})
+                        const historyForm = formFoodLogHistory(
+                          now,
+                          name,
+                          "Log " + name,
+                          updatedFood
+                        );
+                        setHistory((currentState) => {
+                          return [...currentState, historyForm];
+                        });
+
                         // Reset modal data and inputs
                         setModalData({});
                         setServing("");

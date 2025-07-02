@@ -122,6 +122,8 @@ export default function HomePage({ navigation }) {
     setModalVisible(!modalVisible);
   };
 
+  console.log(history);
+
   if (loading) {
     return (
       <View

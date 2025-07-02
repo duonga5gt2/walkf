@@ -44,26 +44,6 @@ export const addUser = async (
     // Step 1: Add user to 'userDetails'
     const docRef = await addDoc(collection(db, "userDetails"), data);
     console.log("User created with ID:", docRef.id);
-
-    // Step 2: Add 'progressChart' document to 'progress' subcollection
-    const progressChartRef = doc(
-      db,
-      "userDetails",
-      docRef.id,
-      "progress",
-      "progressChart"
-    );
-
-    await setDoc(progressChartRef, {
-      chartData: [
-        {
-          label: getFormattedDate(),
-          value: weight, // Use initial weight to populate the first entry
-        },
-      ],
-    });
-
-    console.log("Progress chart initialized.");
   } catch (e) {
     console.error("Error adding user:", e);
     console.log(e);
@@ -138,5 +118,120 @@ export const updateUserProfile = async (uid, updates) => {
   } catch {
     console.error("Error updating user data:", error);
     throw error;
+  }
+};
+
+export const deleteUserFoodHistoryItem = async (
+  uid,
+  mealType,
+  timeToDelete
+) => {
+  try {
+    const userSnap = await getDocs(
+      query(collection(db, "userDetails"), where("uid", "==", uid))
+    );
+    if (userSnap.empty) throw new Error("User not found");
+
+    const userDoc = userSnap.docs[0];
+    const userId = userDoc.id;
+
+    const foodDocRef = doc(
+      db,
+      "userDetails",
+      userId,
+      "foodHistory",
+      "foodHistorry"
+    );
+    const foodDocSnap = await getDoc(foodDocRef);
+
+    if (!foodDocSnap.exists())
+      throw new Error("foodHistorry document not found");
+
+    const data = foodDocSnap.data();
+    const currentMealArray = data?.todayMeal?.[mealType] || [];
+
+    const updatedMealArray = currentMealArray.filter(
+      (item) => item.time !== timeToDelete
+    );
+
+    await updateDoc(foodDocRef, {
+      [`todayMeal.${mealType}`]: updatedMealArray,
+    });
+
+    console.log(`Deleted food log from ${mealType} with time: ${timeToDelete}`);
+  } catch (error) {
+    console.error("Error deleting food log:", error);
+  }
+};
+
+export const fetchUserFoodHistory = async (uid) => {
+  try {
+    const userQuery = query(
+      collection(db, "userDetails"),
+      where("uid", "==", uid)
+    );
+    const userSnapshot = await getDocs(userQuery);
+
+    if (userSnapshot.empty) {
+      console.log("No user found with UID:", uid);
+      return null;
+    }
+
+    const userDoc = userSnapshot.docs[0];
+    const userId = userDoc.id;
+
+    const foodDocRef = doc(
+      db,
+      "userDetails",
+      userId,
+      "foodHistory",
+      "foodHistorry"
+    );
+    const foodDocSnap = await getDoc(foodDocRef);
+
+    if (!foodDocSnap.exists()) {
+      console.log("No food history found");
+      return null;
+    }
+
+    const todayMeal = foodDocSnap.data().todayMeal || {};
+
+    return {
+      breakfast: todayMeal.breakfast || [],
+      lunch: todayMeal.lunch || [],
+      dinner: todayMeal.dinner || [],
+    };
+  } catch (error) {
+    console.error("Error fetching user food history:", error);
+    return null;
+  }
+};
+
+export const updateUserFoodHistory = async (uid, mealType, foodLog) => {
+  try {
+    const userSnap = await getDocs(
+      query(collection(db, "userDetails"), where("uid", "==", uid))
+    );
+
+    if (userSnap.empty) throw new Error("User not found");
+
+    const userDoc = userSnap.docs[0];
+    const userId = userDoc.id;
+
+    const foodDocRef = doc(
+      db,
+      "userDetails",
+      userId,
+      "foodHistory",
+      "foodHistorry"
+    );
+
+    await updateDoc(foodDocRef, {
+      [`todayMeal.${mealType}`]: arrayUnion(foodLog),
+    });
+
+    console.log(`Added food log to todayMeal.${mealType}`);
+  } catch (error) {
+    console.error("Error updating user food history:", error);
   }
 };
