@@ -23,16 +23,11 @@ export const addUser = async (
   weight,
   activityLevel
 ) => {
-  const getFormattedDate = () => {
-    const today = new Date();
-    return `${today.getDate()}/${today.getMonth() + 1}`;
-  };
-
   const data = {
     uid: uid,
     firstName: firstName,
     lastName: lastName,
-    age: age,
+    age: age, // should be Firestore Timestamp
     gender: gender,
     height: height,
     weight: weight,
@@ -43,10 +38,38 @@ export const addUser = async (
   try {
     // Step 1: Add user to 'userDetails'
     const docRef = await addDoc(collection(db, "userDetails"), data);
-    console.log("User created with ID:", docRef.id);
+    const userId = docRef.id;
+    console.log("✅ User created with ID:", userId);
+
+    // Step 2: Create foodHistory/foodHistory doc with empty meals
+    const foodHistoryRef = doc(
+      db,
+      "userDetails",
+      userId,
+      "foodHistory",
+      "foodHistory"
+    );
+    await setDoc(foodHistoryRef, {
+      breakfast: [],
+      lunch: [],
+      dinner: [],
+    });
+    console.log("🍽️ Initialized foodHistory");
+
+    // Step 3: Create SDHistory/SDHistory doc with empty history array
+    const sdHistoryRef = doc(
+      db,
+      "userDetails",
+      userId,
+      "SDHistory",
+      "SDHistory"
+    );
+    await setDoc(sdHistoryRef, {
+      history: [],
+    });
+    console.log("📈 Initialized SDHistory");
   } catch (e) {
-    console.error("Error adding user:", e);
-    console.log(e);
+    console.error("❌ Error adding user or initializing subcollections:", e);
   }
 };
 
@@ -140,7 +163,7 @@ export const deleteUserFoodHistoryItem = async (
       "userDetails",
       userId,
       "foodHistory",
-      "foodHistorry"
+      "foodHistory"
     );
     const foodDocSnap = await getDoc(foodDocRef);
 
@@ -155,7 +178,7 @@ export const deleteUserFoodHistoryItem = async (
     );
 
     await updateDoc(foodDocRef, {
-      [`todayMeal.${mealType}`]: updatedMealArray,
+      [`${mealType}`]: updatedMealArray,
     });
 
     console.log(`Deleted food log from ${mealType} with time: ${timeToDelete}`);
@@ -186,7 +209,7 @@ export const fetchUserFoodHistory = async (uid) => {
       "userDetails",
       userId,
       "foodHistory",
-      "foodHistorry"
+      "foodHistory"
     );
     const foodDocSnap = await getDoc(foodDocRef);
 
@@ -195,7 +218,7 @@ export const fetchUserFoodHistory = async (uid) => {
       return null;
     }
 
-    const todayMeal = foodDocSnap.data().todayMeal || {};
+    const todayMeal = foodDocSnap.data() || {};
 
     return {
       breakfast: todayMeal.breakfast || [],
@@ -224,11 +247,11 @@ export const updateUserFoodHistory = async (uid, mealType, foodLog) => {
       "userDetails",
       userId,
       "foodHistory",
-      "foodHistorry"
+      "foodHistory"
     );
 
     await updateDoc(foodDocRef, {
-      [`todayMeal.${mealType}`]: arrayUnion(foodLog),
+      [`${mealType}`]: arrayUnion(foodLog),
     });
 
     console.log(`Added food log to todayMeal.${mealType}`);
